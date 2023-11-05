@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:root {
+    --yellow: #FFD975;
+    --light-pink: #FCCBE1;
+    --pink: #D727BB;
+    --light-blue: #9ED3FF;
+    --blue: #7F69FD;
+    --grey: #141414;
+    --white: #ffffff;
+    --translucent: rgba(255, 255, 255, 0.10);
+
+}
+
+.body {
+    background-color: var(--grey);
+    font-family: 'Actor', sans-serif;
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-family: 'Abhaya Libre', serif;
+}
+
+::selection {
+    background-color: var(--translucent);
+    color: var(--white);
+}
+
+img {
+    display: block;
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+}
+
+.link {
+    text-decoration: none;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: var(--white);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+button{
+    cursor: pointer;
+    border: none;
+    display: block;
+}
+
+
+.container {
+    padding: 0 16px;
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
