@@ -1,0 +1,48 @@
+.header {
+    padding: 24px 0;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+a.header-inner__img {
+    /*width: 46px;*/
+    /*height: 46px;*/
+    padding: 10px;
+    border-radius: 188px;
+    background: var(--pink);
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: 'Abhaya Libre', serif;
+
+}
+
+.header-inner__btns-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+button.header-inner__btn.js-open-menu {
+    background: transparent;
+    padding: 0;
+}
+
+a.header-navigation__list-item-link.link {
+    font-size: 20px;
+}
+
+
+ul.header-inner__list {
+    display: none;
+}
+
+a.header-inner__btn-tel {
+    display: none;
+}
