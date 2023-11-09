@@ -9,9 +9,10 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Actor&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Actor&display=swap"
+          rel="stylesheet">
 
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
 
@@ -21,9 +22,11 @@
     <div class="container">
         <div class="header-inner">
             <a href="" class="header-inner__img">
-                M
+                <svg width="32px" height="32px">
+                    <use href="../images/icons.svg#icon-logo"></use>
+                </svg>
             </a>
-            
+
             <ul class="header-inner__list">
                 <li class="header-inner__list-item"><a href="">Про нас</a></li>
                 <li class="header-inner__list-item"><a href=""> Наші послуги</a></li>
@@ -32,49 +35,97 @@
                 <li class="header-inner__list-item"><a href=""> Точки збору</a></li>
             </ul>
 
-            <a class="header-inner__btn-tel" href="tel:00000000">
-                099 99 999 99
-            </a>
+
             <div class="header-inner__btns-right">
                 <a class="header-navigation__list-item-link link " href=" ">
                     EN
                 </a>
                 <button class="header-inner__btn js-open-menu" data-modal-open="">
-                    <svg  width="32px" height="32px">
-                        <use  href="../images/icons.svg#icon-menu-full"></use>
+                    <svg width="32px" height="32px">
+                        <use href="../images/icons.svg#icon-menu-full"></use>
                     </svg>
                 </button>
             </div>
         </div>
     </div>
 </header>
-<div class="mobile-menu js-menu-container is-hidden" data-modal="">
+<div class="mobile-menu js-menu-container is-hidden " data-modal="">
     <div class="mobile-menu-container">
-        <button class="mobile-menu-inner__btn" data-modal-close="">
-            <svg  width="45px" height="45px">
-                <use  href="images/icons.svg#icon-done"></use>
+        <div class="mobile-inner__btns-right">
+        <button class="mobile-menu-inner__btn js-close-menu" data-modal-close="">
+            <svg width="32px" height="32px">
+                <use href="../images/icons.svg#icon-menu-with-bevel"></use>
             </svg>
         </button>
+        <a class="mobile-navigation__list-item-link link " href=" ">
+            EN
+        </a>
+        </div>
+        <div class="mobile__logo">
+            <svg width="32px" height="32px">
+                <use href="../images/icons.svg#icon-logo"></use>
+            </svg>
+        </div>
+
+
         <ul class="mobile-menu__list list ">
             <li class="mobile-menu__item ">
-                <a class="mobile-menu__item-link link " href="">Про нас</a>
+                <a class="mobile-menu__item-link link " href="">Про мене</a>
             </li>
             <li class="mobile-menu__item ">
-                <a class="mobile-menu__item-link link " href="">Наші послуги</a>
+                <a class="mobile-menu__item-link link " href="">Послуги</a>
             </li>
             <li class="mobile-menu__item ">
-                <a class="mobile-menu__item-link link " href="">Етапи доставки</a>
+                <a class="mobile-menu__item-link link " href="">Прайс</a>
             </li>
             <li class="mobile-menu__item ">
-                <a class="mobile-menu__item-link link " href="">Калькулятор</a>
+                <a class="mobile-menu__item-link link " href="">Кейси</a>
             </li>
             <li class="mobile-menu__item ">
-                <a class="mobile-menu__item-link link " href="">Точки збору</a>
+                <a class="mobile-menu__item-link link " href="">Співпраця</a>
             </li>
+            <li class="mobile-menu__item ">
+                <a class="mobile-menu__item-link link " href="">Відгуки</a>
+            </li>
+        </ul>
+
+
+        <ul class="mobile-social-list">
+            <li class="mobile-social-item">
+                <a class="mobile-social__item-link" href="">
+                    <svg class="mobile-social-icon" width="32px" height="32px">
+                        <use href="../images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+
+            <li class="mobile-social-item">
+                <a class="mobile-social__item-link" href="">
+                    <svg class="mobile-social-icon" width="32px" height="32px">
+                        <use href="../images/icons.svg#icon-email"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-social-item">
+                <a class="mobile-social__item-link" href="">
+                    <svg class="mobile-social-icon" width="32px" height="32px">
+                        <use href="../images/icons.svg#icon-phone"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="mobile-social-item">
+                <a class="mobile-social__item-link" href="">
+                    <svg class="mobile-social-icon" width="32px" height="32px">
+                        <use href="../images/icons.svg#icon-telegram"></use>
+                    </svg>
+                </a>
+            </li>
+
+
         </ul>
     </div>
 </div>
-
+<!--
 <main>
     <section class="hero">
         <div class="container">
@@ -127,10 +178,15 @@
         </div>
     </div>
 </footer>
+-->
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-<script type="module" src="js/назва.js" ></script>
+
+<script type="module" src="../js/mobile-menu.js"></script>
 
 </body>
 </html>

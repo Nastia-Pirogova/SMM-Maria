@@ -9,24 +9,10 @@
 
 }
 
-a.header-inner__img {
-    /*width: 46px;*/
-    /*height: 46px;*/
-    padding: 10px;
-    border-radius: 188px;
-    background: var(--pink);
-    font-size: 26px;
-    font-weight: 700;
-    line-height: 22px;
-    font-family: 'Abhaya Libre', serif;
-
-}
-
 .header-inner__btns-right {
     display: flex;
     align-items: center;
     gap: 20px;
-    justify-content: center;
 }
 
 button.header-inner__btn.js-open-menu {
@@ -38,11 +24,98 @@ a.header-navigation__list-item-link.link {
     font-size: 20px;
 }
 
+.mobile-menu-inner__btn{
+    background: transparent;
+    padding: 0;
+}
 
 ul.header-inner__list {
     display: none;
 }
 
-a.header-inner__btn-tel {
-    display: none;
+
+
+.js-menu-container.is-open {
+    transform: translateX(0);
+
 }
+
+.mobile-menu{
+    transform: translateX(100%);
+    background-color: var(--grey);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    padding: 0 16px;
+    transition: transform 300ms;
+}
+
+.mobile-menu-container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+    padding: 24px 0;
+}
+
+ul.mobile-menu__list {
+    position: absolute;
+    top: 173px;
+    width: 343px;
+    height: 379px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.mobile-social-list {
+    position: absolute;
+    bottom: 100px;
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+li.mobile-social-item {
+    padding: 10px;
+    border-radius: 62px;
+    border: 1px solid var(--white);
+    height: 54px;
+    transform: scale(0.74);
+}
+
+.mobile-menu-inner__btn {
+    background: transparent;
+
+}
+
+.mobile-menu-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 24px 0;
+    justify-content: space-between;
+}
+
+.mobile-inner__btns-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+a.mobile-navigation__list-item-link {
+    font-size: 20px;
+}
+
+
+
+
+
+
+

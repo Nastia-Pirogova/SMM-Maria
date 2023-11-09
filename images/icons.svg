@@ -33,6 +33,11 @@
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M23.333 8.683l0.016-0.018"></path>
 </symbol>
 
+<symbol id="icon-logo" viewBox="0 0 32 32">
+<path fill="#d727bb" style="fill: var(--color1, #d727bb)" d="M16 0c8.837 0 16 7.163 16 16s-7.163 16-16 16c-8.837 0-16-7.163-16-16s7.163-16 16-16z"></path>
+<path fill="#fff" style="fill: var(--color2, #fff)" d="M14.695 21.913l-2.632-8.57h-0.061c0.010 0.204 0.026 0.51 0.046 0.918s0.041 0.847 0.061 1.316c0.020 0.459 0.031 0.877 0.031 1.255v5.081h-2.066v-10.927h3.153l2.586 8.356h0.046l2.739-8.356h3.153v10.927h-2.158v-5.173c0-0.347 0.005-0.745 0.015-1.194 0.020-0.449 0.036-0.872 0.046-1.27 0.020-0.408 0.036-0.714 0.046-0.918h-0.061l-2.816 8.555h-2.127z"></path>
+</symbol>
+
 <symbol id="icon-menu-full" viewBox="0 0 32 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M30.857 4.572h-29.714M30.857 16h-29.714M30.857 27.429h-29.714"></path>
 </symbol>
