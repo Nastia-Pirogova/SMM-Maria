@@ -1,0 +1,78 @@
+.about-post{
+    margin: 30px 0;
+}
+
+.about-post-inner{
+
+}
+
+.about-post-inner__box{
+    padding: 28px 0 40px 0;
+    border-bottom: 1px solid var(--white);
+}
+
+.about-post-inner__box-title{
+    font-family: Abhaya Libre,sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin: 0 0 24px 0;
+}
+
+.about-post-inner__box-img{
+    width: 100%;
+}
+.about-post-inner__box-desr{
+    margin: 0 0 28px 0;
+}
+
+.about-post-inner__box-btn{
+    padding: 16px 20px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid var(--white);
+    border-radius: 24px;
+    margin: 28px 0 0 0;
+    cursor: pointer;
+}
+
+.slider-post-inner{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.slider-post-inner__box-img{
+    width: auto !important;
+    height: 300px !important;
+    object-fit: contain;
+}
+.slider-post-inner__box-btns{
+    display: flex;
+    gap: 10px;
+    margin: 28px 0 0 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-post-inner__box-btn-arrow{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid;
+}
+
+.button-post-link{
+    border-radius: 16px;
+    background: var(--pink);
+    padding: 34px 50px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: var(--white);
+    font-family: Actor,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 28px 0 30px 0;
+}
