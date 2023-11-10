@@ -62,12 +62,13 @@ ul.header-inner__list {
 button.mobile-menu-inner_btn.js-close-menu {
     background: transparent;
     padding: 0;
-    display: flex;
 }
 
 .mobile-menu-inner_btns-top {
     display: flex;
     align-items: flex-end;
+    width: 100%;
+    justify-content: flex-end;
 }
 
 ul.mobile-menu__list {
