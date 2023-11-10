@@ -1,31 +1,32 @@
-.about-post{
+.about-post {
     margin: 30px 0;
 }
 
-.about-post-inner{
+.about-post-inner {
 
 }
 
-.about-post-inner__box{
+.about-post-inner__box {
     padding: 28px 0 40px 0;
     border-bottom: 1px solid var(--white);
 }
 
-.about-post-inner__box-title{
-    font-family: Abhaya Libre,sans-serif;
+.about-post-inner__box-title {
+    font-family: Abhaya Libre, sans-serif;
     font-size: 36px;
     font-weight: 400;
     margin: 0 0 24px 0;
 }
 
-.about-post-inner__box-img{
+.about-post-inner__box-img {
     width: 100%;
 }
-.about-post-inner__box-desr{
+
+.about-post-inner__box-desr {
     margin: 0 0 28px 0;
 }
 
-.about-post-inner__box-btn{
+.about-post-inner__box-btn {
     padding: 16px 20px;
     width: 100%;
     display: inline-block;
@@ -35,21 +36,27 @@
     border: 1px solid var(--white);
     border-radius: 24px;
     margin: 28px 0 0 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
 }
 
-.slider-post-inner{
+.about-post-inner__box-btn:hover {
+    background-color: var(--yellow);
+}
+
+.slider-post-inner {
     width: 100%;
     overflow: hidden;
 }
 
 
-.slider-post-inner__box-img{
+.slider-post-inner__box-img {
     width: auto !important;
     height: 300px !important;
     object-fit: contain;
 }
-.slider-post-inner__box-btns{
+
+.slider-post-inner__box-btns {
     display: flex;
     gap: 10px;
     margin: 28px 0 0 0;
@@ -57,13 +64,12 @@
     align-items: center;
 }
 
-.slider-post-inner__box-btn-arrow{
+.slider-post-inner__box-btn-arrow {
     padding: 10px;
     background-color: transparent;
-    border: 1px solid;
 }
 
-.button-post-link{
+.button-post-link {
     border-radius: 16px;
     background: var(--pink);
     padding: 34px 50px;
@@ -71,8 +77,43 @@
     display: inline-block;
     text-align: center;
     color: var(--white);
-    font-family: Actor,sans-serif;
+    font-family: Actor, sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin: 28px 0 30px 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.button-post-link:hover {
+    background-color: var(--yellow);
+}
+
+.about-post-inner__btn-prev {
+    display: flex;
+    gap: 12px;
+    padding: 10px;
+    width: 150px;
+}
+
+.about-post-inner__btn-prev-icon {
+    fill: var(--white);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.about-post-inner__btn-prev:hover .about-post-inner__btn-prev-icon {
+    fill: var(--yellow);
+}
+
+.slider-post-next-icon {
+    fill: var(--white);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slider-post-prev:hover .slider-post-next-icon-left {
+    fill: var(--yellow);
+}
+
+.slider-post-next:hover .slider-post-next-icon-right {
+    fill: var(--yellow);
 }
