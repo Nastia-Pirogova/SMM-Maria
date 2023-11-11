@@ -27,7 +27,7 @@ h2.hero-inner__title-down {
 
 .about-me__blur {
     border-radius: 405px;
-    background-color: var(--pink);
+    background-color: var(--pink-2);
     filter: blur(24.5px);
     width: 178px;
     height: 154px;
