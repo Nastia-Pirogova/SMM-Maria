@@ -1,0 +1,54 @@
+h3.about-me-inner__title {
+    font-family: 'Abhaya Libre', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.about-me-inner__text {
+    margin-top: 24px;
+    margin-bottom: 56px;
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.about-me-inner__img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 24px 18px;
+}
+
+.about-me__img {
+    width: 337px;
+    height: 337px;
+    border-radius: 337px;
+    border: 0.538px solid var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me__img > img{
+    width: 316px;
+    height: 324px;
+    border-radius: 215px;
+}
+
+.about-me__ellipse{
+    position: absolute;
+}
+
+.about-me__ellipse__blur {
+    width: 219px;
+    height: 219px;
+    border-radius: 109.5px;
+    background-color: var(--pink-2);
+    filter: blur(79.5px);
+    position: relative;
+    right: 55px;
+    top: 7px;
+    z-index: -1;
+}
