@@ -5,8 +5,12 @@
     line-height: 76px;
 }
 
+.swiper-slide.swiper-slide-services.swiper-slide-active {
+    margin: 0;
+}
+
 .swiper-slide.swiper-slide-active {
-    margin: 24px 0;
+    height: 485px;
 }
 
 .swiper-slide {
@@ -28,10 +32,6 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
-}
-
-.slide-text-list, .slide-text, .slide__title {
-    width: 273px;
 }
 
 .slide-button {
@@ -57,16 +57,6 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
-}
-
-.slide-text-list-pages, .slide-text-pages, .slide__title-pages {
-    width: 289px;
-    position: relative;
-    right: 8px;
-}
-
-.slide-style{
-    width: 289px;
 }
 
 .swiper-slide-long {
