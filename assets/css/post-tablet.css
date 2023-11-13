@@ -101,5 +101,7 @@
     .about-post-inner__box-2-btn:hover {
         background-color:var(--yellow);
     }
-
+    .about-post-inner__box-wrap {
+        margin: 0;
+    }
 }
