@@ -10,3 +10,5 @@
 
 @import "post.css";
 @import "media.css";
+@import "post-tablet.css";
+@import "post-desktop.css";
