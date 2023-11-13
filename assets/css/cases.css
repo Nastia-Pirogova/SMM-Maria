@@ -1,22 +1,25 @@
 .cases__title {
-    margin: 32px 0;
-    font-size: 36px;
+    font-family: Abhaya Libre, sans-serif;
+    font-size: 26px;
     font-weight: 400;
-    line-height: 42px;
+    line-height: 31px;
+    margin-bottom: 24px;
+}
+
+.cases__inner{
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--white);
+    margin-bottom: 32px;
 }
 
 .cases__photo {
-    display: flex;
-    justify-content: center;
-    margin: 24px 0;
+    width: 100%;
+    margin-bottom: 24px;
 }
 
 .cases__inner-text{
-    width: 341px;
-    padding-bottom: 12px;
     display: flex;
     align-items: center;
-    border-bottom: 1px solid var(--white);
 }
 
 .cases__text{
@@ -24,8 +27,6 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 26px;
-    width: 254px;
-    margin-right: 14px;
 }
 
 .cases__button{
