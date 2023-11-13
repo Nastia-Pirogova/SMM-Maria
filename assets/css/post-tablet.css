@@ -1,0 +1,105 @@
+@media screen and (min-width: 768px) {
+    .about-post-inner__btn-prev {
+        font-size: 18px;
+    }
+
+    .about-post-inner__box-1{
+        display: flex;
+        gap: 24px;
+    }
+    .about-post-inner__box-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .about-post-inner__box-title-mini{
+        font-size: 24px;
+     }
+    .about-post-inner__box-desr {
+        font-size: 18px;
+    }
+    .about-post-inner__box {
+        padding: 64px 0;
+    }
+    .about-post-inner__box-btn {
+        padding: 17px 78px;
+        font-size: 16px;
+        width: 300px;
+    }
+    .about-post-inner__box-desr {
+        margin: 0;
+        width: 314px;
+    }
+    .about-post-inner__box-desr-2{
+        width: 406px;
+    }
+    .about-post-inner__box-2-wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin: 0 0 40px 0;
+    }
+    .about-post-inner__box-2-btn{
+        font-size: 16px;
+        padding: 17px 44.5px;
+        border-radius: 51px;
+        background: var(--pink);
+    }
+    .about-post-inner__box-img-2{
+        display: block;
+    }
+    .about-post-inner__box-img-wrap {
+        display: flex;
+        gap: 20px;
+    }
+    .button-post {
+        display: none;
+    }
+    .about-post-inner__box-2-btn {
+        display: block;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    }
+    .about-post-inner__box-img-wrap-2{
+        display: block;
+    }
+    section.slider-post {
+        margin: 40px 0;
+    }
+
+    .links-post-inner__link {
+        padding: 12px 42px;
+        border-radius: 23px;
+        border: 1px solid var(--pink);
+        display: inline-block;
+    }
+    .links-post{
+        display: block;
+    }
+    .links-post-inner {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 24px 18px;
+        border-bottom: 1px solid var(--white);
+        padding: 0 0 32px 0;
+    }
+    .links-post-inner__link:nth-child(1){
+        background-color: var(--white);
+        color: var(--pink);
+    }
+    .links-post-inner__link:nth-child(3){
+        background-color: var(--pink);
+    }
+    .links-post-inner__link:nth-child(5){
+        background-color: var(--white);
+        color: var(--pink);
+    }
+    .about-post-inner__box-img-3 {
+        display: none;
+    }
+    .about-post-inner__box-2-btn:hover {
+        background-color:var(--yellow);
+    }
+
+}
