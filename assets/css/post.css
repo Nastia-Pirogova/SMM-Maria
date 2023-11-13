@@ -117,3 +117,42 @@
 .slider-post-next:hover .slider-post-next-icon-right {
     fill: var(--yellow);
 }
+
+.about-post-inner__box-img-2{
+    display: none;
+}
+
+.about-post-inner__box-wrap {
+    margin: 0 0 28px 0;
+}
+.about-post-inner__box-2-btn {
+    display: none;
+}
+.about-post-inner__box-img-wrap-2{
+    display: none;
+}
+
+.links-post{
+    display: none;
+}
+
+.about-post-inner__box-img-3{
+    display: none;
+}
+
+.about-post-inner__box-img-wrap-3{
+    display: none;
+}
+
+
+.about-me__ellipse__blur-post {
+    width: 219px;
+    height: 219px;
+    border-radius: 109.5px;
+    background-color: var(--pink-2);
+    position: relative;
+    right: 55px;
+    top: 7px;
+    z-index: -1;
+    filter: blur(116.23108673095703px);
+}

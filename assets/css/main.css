@@ -8,5 +8,11 @@
 @import "cases.css";
 
 @import "services.css";
+
+
+
+
 @import "post.css";
 @import "media.css";
+@import "post-tablet.css";
+@import "post-desktop.css";

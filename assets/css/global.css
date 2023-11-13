@@ -14,7 +14,7 @@
     --grey: #141414;
     --white: #ffffff;
     --translucent: rgba(255, 255, 255, 0.10);
-
+    --black: #141414;
 }
 
 .body {
@@ -26,16 +26,11 @@
 }
 
 
-
-
-.title{
-    font-family: 'Abhaya Libre', serif;
-}
-
 ::selection {
     background-color: var(--translucent);
     color: var(--white);
 }
+
 
 img {
     display: block;
@@ -92,3 +87,7 @@ button{
     width: 100%;
     position: relative;
 }
+
+.title{
+     font-family: 'Abhaya Libre', serif;
+ }
