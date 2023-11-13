@@ -143,7 +143,10 @@
 .about-post-inner__box-img-wrap-3{
     display: none;
 }
-
+.about-me__ellipse {
+    position: absolute;
+    z-index: -14;
+}
 
 .about-me__ellipse__blur-post {
     width: 219px;
