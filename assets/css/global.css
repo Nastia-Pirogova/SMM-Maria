@@ -26,16 +26,13 @@
 }
 
 
-
-
-.title{
-    font-family: 'Abhaya Libre', serif;
-}
-
 ::selection {
     background-color: var(--translucent);
     color: var(--white);
 }
+
+
+
 
 img {
     display: block;
@@ -92,3 +89,7 @@ button{
     width: 100%;
     position: relative;
 }
+
+.title{
+     font-family: 'Abhaya Libre', serif;
+ }
