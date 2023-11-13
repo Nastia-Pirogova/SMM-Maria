@@ -10,11 +10,12 @@
     bottom: 0;
     left: 0;
     z-index: -1;
-    background: var(--pink-2);
+    background: var(--pink);
     filter: blur(17px);
 }
 
 .terms-of-cooperation__title {
+    font-family: Actor, sans-serif;
     font-size: 26px;
     font-weight: 400;
     line-height: 31px;
