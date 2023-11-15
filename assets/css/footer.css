@@ -31,7 +31,7 @@ ul.footer-inner__mobile-list1,ul.footer-inner__mobile-list2 {
 .contacts-list{
     font-size: 21px;
     line-height: 25px;
-    margin: 28px 0;
+    margin: 38px 0;
 }
 
 ul.contacts-list{
@@ -54,7 +54,7 @@ li.footer-social-item {
     transform: scale(0.74);
 }
 
-.footer-inner__button{
+.footer-inner__button {
     font-family: Actor, sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -63,10 +63,9 @@ li.footer-social-item {
     border-radius: 24px;
     border: 1px solid var(--white);
     color: var(--white);
-    padding: 12.5px 79.5px;
+    padding: 12.5px 30.5px;
     width: 100%;
 }
-
 .copyright{
     font-size: 14px;
     letter-spacing: 0.84px;
