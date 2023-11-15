@@ -1,0 +1,49 @@
+.contact-me__inner{
+    padding: 40px 0;
+    border-bottom: 1px solid var(--white);;
+}
+
+.contact-me__title{
+    font-family: 'Actor', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-bottom: 24px;
+
+}
+
+.contact-me__item-style {
+    margin-bottom: 14px;
+    border-radius: 16px;
+    border: 1px solid var(--white);
+    padding: 14px 0 14px 16px;
+    width: 100%;
+    font-family: Actor, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    background-color: transparent;
+}
+
+.contact-me__item-style::placeholder {
+    color: var(--white);
+}
+
+textarea#message {
+    margin-bottom: 24px;
+}
+
+.form-button{
+    border-radius: 20px;
+    width: 100%;
+    font-family: 'Actor', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    background-color: transparent;
+    background: var(--pink);
+    color: var(--white);
+    text-align: center;
+    padding: 12.5px 10px 12.5px 10px ;
+
+}
