@@ -16,7 +16,8 @@
     margin-bottom: 14px;
     border-radius: 16px;
     border: 1px solid var(--white);
-    padding: 14px 0 14px 16px;
+    color: var(--white);
+    padding: 14px 16px;
     width: 100%;
     font-family: Actor, sans-serif;
     font-size: 12px;
