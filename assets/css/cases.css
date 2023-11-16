@@ -44,3 +44,7 @@
 .cases__button:hover{
     fill: var(--yellow);
 }
+
+.cases__inner {
+    margin: 0 5px 0 0;
+}
