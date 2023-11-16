@@ -37,6 +37,10 @@
 
 .cases__button {
     padding: 0;
-    background: transparent;
+    background-color: transparent;
     fill: var(--white);
+}
+
+.cases__button:hover{
+    fill: var(--yellow);
 }

@@ -1,4 +1,5 @@
 .footer-inner{
+    border-top: 1px solid var(--white);;
     padding: 32px 0;
 }
 
@@ -12,20 +13,39 @@
     justify-content: space-between;
 }
 
-ul.footer-inner__mobile-list1,ul.footer-inner__mobile-list2 {
+.footer-inner__mobile-list1,.footer-inner__mobile-list2 {
     height: 92px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+a.footer-inner__mobile-list-link:hover{
+    color: var(--pink) ;
+}
+
 .footer-inner__top-button {
-    padding: 10px 10px;
+    padding: 8px 22px;
     border-radius: 80px;
     border: 1px solid var(--white);
     background-color: transparent;
     width: 52px;
     height: 52px;
+    position: relative;
+
+}
+
+.footer-inner__top-button__svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-inner__top-button:hover{
+    border-radius: 80px;
+    background-color: var(--blue);
+    border: 1px solid var(--blue);
 }
 
 .contacts-list{
@@ -54,6 +74,22 @@ li.footer-social-item {
     transform: scale(0.74);
 }
 
+.footer-social-icon{
+    fill: var(--white);
+    stroke: var(--white);
+}
+
+.footer-social-item:hover {
+    background-color: var(--yellow);
+    border: 1px solid var(--yellow);
+}
+
+.footer-social-icon:hover {
+    fill: var(--black);
+    stroke: var(--black);
+}
+
+
 .footer-inner__button {
     font-family: Actor, sans-serif;
     font-size: 14px;
@@ -66,6 +102,13 @@ li.footer-social-item {
     padding: 12.5px 30.5px;
     width: 100%;
 }
+
+.footer-inner__button:hover{
+    border: 1px solid var(--yellow);
+    background-color: var(--yellow);
+    color: var(--black);
+}
+
 .copyright{
     font-size: 14px;
     letter-spacing: 0.84px;

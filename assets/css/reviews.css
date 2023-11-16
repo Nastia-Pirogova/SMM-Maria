@@ -15,7 +15,7 @@
 
 .swiper-reviews {
     display: flex;
-    gap: 40px;
+    gap: 45px;
 }
 
 .reviews-swiper-slide-style {
@@ -41,10 +41,16 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
-
 }
 
 .left-button-reviews,.right-button-reviews {
     padding: 10px;
 }
 
+.left-button-reviews:hover{
+    fill: var(--yellow);
+}
+
+.right-button-reviews:hover{
+    fill: var(--yellow);
+}

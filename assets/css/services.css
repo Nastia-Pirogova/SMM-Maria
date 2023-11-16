@@ -15,6 +15,10 @@
     margin: 0 0 24px 0;
 }
 
+.swiper-slide:hover{
+    background-color: var(--pink);
+}
+
 .swiper-slide-style {
     padding: 42px 36px;
     border-radius: 24px;
@@ -45,6 +49,7 @@
     background-color: transparent;
     color: var(--white);
 }
+
 
 .slide__title-pages {
     font-family: Abhaya Libre, sans-serif;
@@ -79,7 +84,14 @@
     fill: var(--white);
 }
 
+.s-button-prev:hover{
+    fill: var(--yellow);
+}
+
+.s-button-next:hover{
+    fill: var(--yellow);
+}
+
 .services-swiper {
     display: flex;
-    gap: 10px;
 }
