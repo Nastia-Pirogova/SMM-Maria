@@ -23,6 +23,7 @@ button.header-inner__btn.js-open-menu {
 a.header-navigation__list-item-link {
     padding: 9px 7.5px;
     font-size: 20px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-navigation__list-item-link:hover{
@@ -95,6 +96,8 @@ ul.mobile-social-list {
 
 .mobile-menu__item-link {
     font-size: 18px;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .mobile-menu__item-link:hover {
@@ -107,6 +110,7 @@ li.mobile-social-item {
     border: 1px solid var(--white);
     height: 54px;
     transform: scale(0.74);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-social-icon{
