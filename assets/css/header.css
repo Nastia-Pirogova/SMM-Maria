@@ -52,11 +52,14 @@ ul.header-inner__list {
     transition: transform 300ms;
 }
 
+
+
 .mobile-menu-container {
     display: flex;
-    flex-direction: row-reverse;
-    gap: 20px;
+    flex-direction: column;
     padding: 24px 0;
+    align-items: center;
+    gap: 103px;
 }
 
 button.mobile-menu-inner_btn.js-close-menu {
@@ -81,6 +84,7 @@ ul.mobile-menu__list {
 ul.mobile-social-list {
     display: flex;
     gap: 24.3px;
+    margin-top: 27px;
 }
 
 .mobile-menu__item-link {
@@ -100,13 +104,7 @@ li.mobile-social-item {
 
 }
 
-.mobile-menu-container {
-    display: flex;
-    flex-direction: column;
-    padding: 24px 0;
-    align-items: center;
-    gap: 30px;
-}
+
 
 .mobile-inner__btns-right {
     display: flex;

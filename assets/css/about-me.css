@@ -1,3 +1,7 @@
+.about-me-inner{
+    margin: 24px 0 32px 0;
+}
+
 .about-me-inner__title {
     font-family: 'Abhaya Libre', sans-serif;
     font-size: 26px;
