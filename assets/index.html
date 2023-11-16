@@ -54,22 +54,22 @@
         </div>
         <ul class="mobile-menu__list list ">
             <li class="mobile-menu__item ">
-                <a class="mobile-menu__item-link link " href="">Про мене</a>
+                <a class="mobile-menu__item-link link " href="#about-me">Про мене</a>
             </li>
             <li class="mobile-menu__item ">
-                <a class="mobile-menu__item-link link " href="">Послуги</a>
+                <a class="mobile-menu__item-link link " href="#services">Послуги</a>
             </li>
             <li class="mobile-menu__item ">
-                <a class="mobile-menu__item-link link " href="">Прайс</a>
+                <a class="mobile-menu__item-link link " href="#contact">Контакти</a>
             </li>
             <li class="mobile-menu__item ">
-                <a class="mobile-menu__item-link link " href="">Кейси</a>
+                <a class="mobile-menu__item-link link " href="#cases">Кейси</a>
             </li>
             <li class="mobile-menu__item ">
-                <a class="mobile-menu__item-link link " href="">Співпраця</a>
+                <a class="mobile-menu__item-link link " href="#terms-of-cooperation">Співпраця</a>
             </li>
             <li class="mobile-menu__item ">
-                <a class="mobile-menu__item-link link " href="">Відгуки</a>
+                <a class="mobile-menu__item-link link " href="#reviews">Відгуки</a>
             </li>
         </ul>
         <ul class="mobile-social-list">
@@ -126,7 +126,7 @@
     </section>
 </main>
 
-<section class="about-me">
+<section class="about-me" id="about-me">
     <div class="container">
         <div class="about-me-inner">
             <h3 class="about-me-inner__title">Про мене</h3>
@@ -156,7 +156,7 @@
     </div>
 </section>
 
-<section class="services">
+<section class="services" id="services">
     <div class="container">
         <div class="services-inner">
             <div class="services__title title">Послуги</div>
@@ -165,6 +165,7 @@
             <div class="swiper">
                 <div class="swiper-wrapper services-swiper">
                     <div class="swiper-slide swiper-slide-style swiper-slide-services">
+
                         <div class="slide__title">Контент план</div>
                         <ul class="slide-list">
                             <li class="slide-text-list">
@@ -188,6 +189,7 @@
                                 володієте на 101% - найкраще поєднання для ведення сторінки 😊
                             </li>
                         </ul>
+
                     </div>
 
 
@@ -336,7 +338,7 @@
 </section>
 
 
-<section class="terms-of-cooperation">
+<section class="terms-of-cooperation" id="terms-of-cooperation">
     <div class="container">
         <div class="terms-of-cooperation__inner">
             <div class="terms-of-cooperation__title title">Умови співпраці</div>
@@ -370,7 +372,7 @@
     </div>
 </section>
 
-<section class="cases">
+<section class="cases" id="cases">
     <div class="container">
         <div class="cases__title ">Кейси</div>
         <div class="cases-inner">
@@ -450,11 +452,11 @@
 </section>
 
 
-<section class="reviews">
+<section class="reviews" id="reviews">
     <div class="container">
         <div class="reviews__inner">
             <div class="reviews__title title">Відгуки</div>
-            <div class="swiper-2">
+            <div class="swiper-2 swiper">
                 <div class="swiper-wrapper swiper-reviews">
                     <div class="swiper-slide reviews-swiper-slide-style">
                         <div class="swiper-slide__inner-text">
@@ -479,8 +481,6 @@
                 </div>
 
 
-
-
                 <div class="button__reviews">
                     <div class="left-button-reviews">
                         <svg width="64px" height="32px">
@@ -493,7 +493,10 @@
                         </svg>
                     </div>
                 </div>
-
+            </div>
+        </div>
+    </div>
+</section>
 <section class="contact-me">
     <div class="container">
         <div class="contact-me__inner">
@@ -513,7 +516,8 @@
                     <input class="contact-me__item-style" id="tel" type="tel" placeholder="Телефон"/>
 
                     <label for="message">
-                        <textarea class="contact-me__item-style" id="message" name="message"  rows="8" placeholder="Повідомлення"></textarea>
+                        <textarea class="contact-me__item-style" id="message" name="message" rows="8"
+                                  placeholder="Повідомлення"></textarea>
                     </label>
 
                     <button class="form-button" type="submit" name="send">Відправити</button>
@@ -524,42 +528,40 @@
 </section>
 
 
-
-
 <footer class="footer">
     <div class="container">
         <div class="footer-inner">
             <div class="footer-inner__top">
                 <ul class="footer-inner__mobile-list1">
                     <li class="footer-inner__mobile-list-item">
-                        <a href="" class="footer-inner__mobile-list-link">Про мене</a>
+                        <a href="#about-me" class="footer-inner__mobile-list-link">Про мене</a>
                     </li>
                     <li class="footer-inner__mobile-list-item">
-                        <a href="" class="footer-inner__mobile-list-link">Послуги</a>
+                        <a href="#services" class="footer-inner__mobile-list-link">Послуги</a>
                     </li>
                     <li class="footer-inner__mobile-list-item">
-                        <a href="" class="footer-inner__mobile-list-link">Контакти</a>
+                        <a href="#contact" class="footer-inner__mobile-list-link">Контакти</a>
                     </li>
                 </ul>
                 <ul class="footer-inner__mobile-list2">
                     <li class="footer-inner__mobile-list-item">
-                        <a href="" class="footer-inner__mobile-list-link">Кейси</a>
+                        <a href="#cases" class="footer-inner__mobile-list-link">Кейси</a>
                     </li>
                     <li class="footer-inner__mobile-list-item">
-                        <a href="" class="footer-inner__mobile-list-link">Співпраця</a>
+                        <a href="#terms-of-cooperation" class="footer-inner__mobile-list-link">Співпраця</a>
                     </li>
                     <li class="footer-inner__mobile-list-item">
-                        <a href="" class="footer-inner__mobile-list-link">Відгуки</a>
+                        <a href="#reviews" class="footer-inner__mobile-list-link">Відгуки</a>
                     </li>
                 </ul>
                 <button class="footer-inner__top-button">
-                    <svg  width="18px" height="32px" preserveAspectRatio="none">
-                        <use  href="images/icons.svg#icon-arrow-up"></use>
+                    <svg class="footer-inner__top-button__svg" width="18px" height="32px" preserveAspectRatio="none">
+                        <use href="images/icons.svg#icon-arrow-up"></use>
                     </svg>
                 </button>
             </div>
 
-            <ul class="contacts-list">
+            <ul class="contacts-list" id="contact">
                 <li class="contacts-list-item">
                     <a href="tel:+380667491708" class="contacts-list-link">+380 66 749 17 08</a>
                 </li>
@@ -611,7 +613,6 @@
 </div>
 
 
-
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
@@ -622,10 +623,9 @@
 <script type="module" src="js/reviews-swiper.js"></script>
 
 
-
 <script type="module" src="js/footer-scroll-up.js"></script>
-
 
 
 </body>
 </html>
+

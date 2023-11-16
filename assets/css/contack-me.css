@@ -1,6 +1,5 @@
 .contact-me__inner{
-    padding: 40px 0;
-    border-bottom: 1px solid var(--white);;
+    margin: 40px 0;
 }
 
 .contact-me__title{
@@ -41,10 +40,9 @@ textarea#message {
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
-    background-color: transparent;
-    background: var(--pink);
+    background-color: var(--pink);
     color: var(--white);
     text-align: center;
-    padding: 12.5px 10px 12.5px 10px ;
+    padding: 12.5px 10px;
 
 }
