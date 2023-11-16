@@ -44,5 +44,11 @@ textarea#message {
     color: var(--white);
     text-align: center;
     padding: 12.5px 10px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.form-button:hover{
+    background-color: var(--yellow);
+    border: var(--yellow);
+    color: var(--black);
 }

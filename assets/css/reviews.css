@@ -15,14 +15,12 @@
 
 .swiper-reviews {
     display: flex;
-    gap: 45px;
 }
 
 .reviews-swiper-slide-style {
     padding: 56px 42px 68px 42px;
     border-radius: 32px;
     border: 1px solid var(--white);
-    width: 300px !important;
 }
 
 .swiper-slide__inner-text{
@@ -45,6 +43,8 @@
 
 .left-button-reviews,.right-button-reviews {
     padding: 10px;
+    cursor: pointer;
+
 }
 
 .left-button-reviews:hover{
