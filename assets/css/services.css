@@ -69,7 +69,7 @@
 
 .s-button {
     display: flex;
-    gap: 23px;
+    gap: 46px;
     justify-content: center;
     flex-direction: row;
 }

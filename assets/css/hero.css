@@ -1,5 +1,6 @@
 .hero-inner {
-    padding: 32px 0;
+    margin: 32px 0 116px 0;
+    position: relative;
 }
 
 h1.hero-inner__title, h2.hero-inner__title-down {
@@ -12,8 +13,10 @@ h2.hero-inner__title-down {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
-    bottom: 49px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -60px;
 }
 
 .hero__logo {
