@@ -1,8 +1,8 @@
-.terms-of-cooperation__inner{
-    padding: 40px 0 32px 0;
+.terms-of-cooperation{
+    position: relative;
 }
 
-.terms-of-cooperation__inner::before{
+.terms-of-cooperation::before{
     content: "";
     position: absolute;
     top: 0;
@@ -13,6 +13,13 @@
     background: var(--pink);
     filter: blur(17px);
 }
+
+
+.terms-of-cooperation__inner{
+    padding: 40px 0 32px 0;
+}
+
+
 
 .terms-of-cooperation__title {
     font-family: Actor, sans-serif;
