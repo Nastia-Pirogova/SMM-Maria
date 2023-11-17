@@ -1,12 +1,11 @@
 .header {
-    padding: 24px 0;
 }
 
 .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    margin: 24px 0;
 }
 
 .header-inner__btns-right {
@@ -15,12 +14,12 @@
     gap: 20px;
 }
 
-button.header-inner__btn.js-open-menu {
+.header-inner__btn {
     background-color: transparent;
     padding: 0;
 }
 
-a.header-navigation__list-item-link {
+.header-navigation__list-item-link {
     padding: 9px 7.5px;
     font-size: 20px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -64,7 +63,6 @@ ul.header-inner__list {
 .mobile-menu-container {
     display: flex;
     flex-direction: column;
-    padding: 24px 0;
     align-items: center;
     gap: 50px;
 }
@@ -88,7 +86,7 @@ ul.mobile-menu__list {
     align-items: center;
 }
 
-ul.mobile-social-list {
+.mobile-social-list {
     display: flex;
     gap: 24.3px;
     margin-top: 27px;
@@ -104,7 +102,7 @@ ul.mobile-social-list {
     color: var(--pink) ;
 }
 
-li.mobile-social-item {
+.mobile-social-item {
     padding: 10px;
     border-radius: 62px;
     border: 1px solid var(--white);

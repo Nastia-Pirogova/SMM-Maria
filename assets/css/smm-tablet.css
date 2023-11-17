@@ -1,0 +1,165 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+
+    .header-inner {
+        margin: 32px 0;
+    }
+
+    .header-inner__img svg {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+
+    .header-navigation__list-item-link {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 1.08px;
+        padding: 13px 12px;
+    }
+
+    .header-inner__btn svg {
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+    }
+
+    .mobile-menu{
+        padding: 32px;
+    }
+    .mobile-menu-container {
+        gap: 120px;
+    }
+
+    .mobile-menu-inner_btn svg{
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+    }
+
+    .mobile-menu__item-link{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .mobile-social-item {
+        transform: scale(1.037);
+    }
+
+    .mobile-social-list {
+        gap: 32.67px;
+        margin-top: 0;
+    }
+
+    .hero-inner {
+        margin: 0 0 165px 0;
+        position: relative;
+        padding-top: 91px;
+    }
+
+    .hero__button {
+        display: block;
+    }
+
+    .hero-inner__title,.hero-inner__title-down{
+        font-size: 110px;
+        line-height: 130px;
+    }
+    .hero-inner__title{
+        position: absolute;
+        top: 13px;
+        left: 21px;
+    }
+
+    .hero-inner__title-down {
+        position: absolute;
+        left: 212px;
+        bottom: -70px;
+    }
+
+    .hero__logo{
+        position: absolute;
+        left: 0;
+        right: 25px;
+        top: 40px;
+    }
+
+    .hero-inner__about-me{
+        width: 269.948px;
+        height: 232px;
+    }
+    .about-me__blur{
+        width: 269.948px;
+        height: 232px;
+        background-size: cover;
+    }
+    .hero-inner__logo-smm{
+        font-size: 72px;
+        line-height: 85px;
+        letter-spacing: 4.32px;
+    }
+    .hero-inner__logo-smm span{
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .hero-inner__photo{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        z-index: -2;
+        bottom: 0;
+    }
+
+    .hero-inner__photo > img{
+        width:459px;
+        height: 623px;
+        object-fit: cover;
+        border-radius: 0 72px 0 0;
+    }
+
+    .hero__button{
+        position: absolute;
+        bottom: -119px;
+        right: 0;
+    }
+
+    .about-me-inner{
+        margin: 40px 0;
+    }
+
+    .about-me-inner__title{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .about-me-inner__text{
+        font-size: 18px;
+        line-height: 24px;
+        margin: 32px 0 72px 0;
+    }
+
+    .about-me__img {
+        width: 464px;
+        height: 464px;
+    }
+
+    .about-me__img > img{
+        width: 440px;
+        height: 440px;
+    }
+
+    .services-inner {
+        margin: 40px 0;
+    }
+
+    .services__title {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 32px;
+        text-align: right;
+    }
+}
