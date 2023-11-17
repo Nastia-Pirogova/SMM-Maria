@@ -2,26 +2,31 @@
 @import "header.css";
 @import "hero.css";
 @import "about-me.css";
-
 @import "terms-of-cooperation.css";
-
 @import "cases.css";
-
 @import "services.css";
-
-
 @import "reviews.css";
-
-
 @import "contack-me.css";
-
 @import "footer.css";
-
-
 @import "post.css";
 @import "media.css";
-@import "post-tablet.css";
-@import "post-desktop.css";
-
 @import "smm-tablet.css";
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "post-tablet.css";
+@import "post-desktop.css";
