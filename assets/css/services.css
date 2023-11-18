@@ -47,6 +47,10 @@
     line-height: 17px;
 }
 
+.slide-text-list-tablet{
+    display: none;
+}
+
 .slide-button {
     width: 125px;
     height: 27px;

@@ -1,0 +1,63 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+
+    .cases__title {
+        font-size: 32px;
+        line-height: 38px;
+        margin: 40px 0 30px;
+    }
+
+    .cases__photo {
+        display: block;
+        width: 304px ;
+        height: 268px;
+        margin: 14px 0 0;
+    }
+
+    .cases__photo > img {
+        background-size: cover ;
+
+    }
+
+    .cases__text {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .cases__inner {
+      display: flex;
+      gap: 47px;
+    }
+
+    .cases__inner-text {
+        position: relative;
+        width: 340px;
+        height: auto;
+    }
+
+    .cases__text {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .cases__text span{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .cases__button {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+    }
+
+    .cases__button-icon {
+        width: 116px ;
+    }
+
+
+}

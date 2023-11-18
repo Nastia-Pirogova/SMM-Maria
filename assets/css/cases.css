@@ -1,14 +1,14 @@
+.cases-inner {
+    overflow-y: auto;
+    height: 1000px;
+}
+
 .cases__title {
     font-family: Abhaya Libre, sans-serif;
     font-size: 26px;
     font-weight: 400;
     line-height: 31px;
     margin: 24px 0;
-}
-
-.cases-inner {
-    overflow-y: auto;
-    height: 1000px;
 }
 
 .cases__inner {
@@ -19,7 +19,7 @@
 
 .cases__photo {
     width: 100%;
-    margin-bottom: 24px;
+    margin: 24px 0;
 }
 
 .cases__inner-text {

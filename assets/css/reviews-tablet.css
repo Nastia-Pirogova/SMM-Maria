@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+
+    .reviews {
+        padding: 0;
+    }
+
+    .reviews__inner{
+        background-color: var(--pink);
+        padding: 64px 0 64px;
+    }
+
+    .reviews__title {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 48px;
+    }
+
+    .swiper-reviews {
+        display: flex;
+        gap: 24px;
+    }
+
+    .button__reviews {
+        margin-top: 48px;
+    }
+
+    .reviews-swiper-slide-style {
+        padding: 64px 42px;
+        width: 338px !important;
+        height: 278px;
+    }
+
+}
+
+
+
+
+

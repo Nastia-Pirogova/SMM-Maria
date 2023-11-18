@@ -1,8 +1,8 @@
-.terms-of-cooperation{
+.terms-of-cooperation {
     position: relative;
 }
 
-.terms-of-cooperation::before{
+.terms-of-cooperation::before {
     content: "";
     position: absolute;
     top: 0;
@@ -15,7 +15,7 @@
 }
 
 
-.terms-of-cooperation__inner{
+.terms-of-cooperation__inner {
     padding: 40px 0 32px 0;
 }
 
@@ -27,30 +27,28 @@
     margin-bottom: 24px;
 }
 
-.terms-of-cooperation__photo{
+.terms-of-cooperation__photo {
     border-radius: 0 56px 0 0;
     margin: auto;
+    padding-bottom: 24px;
 }
 
-.terms-of-cooperation__text1{
-    margin-top: 24px;
+.terms-of-cooperation-logo1-tablet-desktop, .terms-of-cooperation-logo2-tablet-desktop {
+    display: none;
 }
 
-.terms-of-cooperation__list{
+
+.terms-of-cooperation__list {
     padding-left: 11px;
 }
 
-.terms-of-cooperation__text1,.terms-of-cooperation__text2,.terms-of-cooperation__list{
+.terms-of-cooperation__text, .terms-of-cooperation__list {
     font-size: 16px;
     font-weight: 400;
     line-height: 19px;
 }
 
-.terms-of-cooperation__text2{
-    margin-bottom: 24px;
-}
-
-.terms-of-cooperation__button{
+.terms-of-cooperation__button {
     font-family: Actor, sans-serif;
     padding: 12.5px 27px;
     font-size: 14px;
@@ -60,5 +58,7 @@
     border: 1px solid var(--white);
     background-color: transparent;
     color: var(--white);
+    margin-top: 24px;
+
 }
 

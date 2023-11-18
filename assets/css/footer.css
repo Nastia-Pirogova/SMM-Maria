@@ -57,19 +57,19 @@ a.footer-inner__mobile-list-link:hover{
     margin: 38px 0;
 }
 
-ul.contacts-list{
+.contacts-list{
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-ul.footer-social-list {
+.footer-social-list {
     display: flex;
     gap:15.33px;
     margin-bottom: 36px;
 }
 
-li.footer-social-item {
+.footer-social-item {
     padding: 10px;
     border-radius: 62px;
     border: 1px solid var(--white);

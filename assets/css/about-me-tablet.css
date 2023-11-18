@@ -1,0 +1,32 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+
+    .about-me-inner{
+        margin: 40px 0;
+    }
+
+    .about-me-inner__title{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .about-me-inner__text{
+        font-size: 18px;
+        line-height: 24px;
+        margin: 32px 0 72px 0;
+    }
+
+    .about-me__img {
+        width: 464px;
+        height: 464px;
+    }
+
+    .about-me__img > img{
+        width: 440px;
+        height: 440px;
+    }
+
+}

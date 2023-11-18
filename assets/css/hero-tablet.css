@@ -4,56 +4,6 @@
         padding: 0 32px;
     }
 
-    .header-inner {
-        margin: 32px 0;
-    }
-
-    .header-inner__img svg {
-        width: 60px;
-        height: 60px;
-        object-fit: cover;
-    }
-
-    .header-navigation__list-item-link {
-        font-size: 18px;
-        line-height: 22px;
-        letter-spacing: 1.08px;
-        padding: 13px 12px;
-    }
-
-    .header-inner__btn svg {
-        width: 48px;
-        height: 48px;
-        object-fit: cover;
-    }
-
-    .mobile-menu{
-        padding: 32px;
-    }
-    .mobile-menu-container {
-        gap: 120px;
-    }
-
-    .mobile-menu-inner_btn svg{
-        width: 48px;
-        height: 48px;
-        object-fit: cover;
-    }
-
-    .mobile-menu__item-link{
-        font-size: 30px;
-        line-height: 36px;
-    }
-
-    .mobile-social-item {
-        transform: scale(1.037);
-    }
-
-    .mobile-social-list {
-        gap: 32.67px;
-        margin-top: 0;
-    }
-
     .hero-inner {
         margin: 0 0 165px 0;
         position: relative;
@@ -127,39 +77,4 @@
         right: 0;
     }
 
-    .about-me-inner{
-        margin: 40px 0;
-    }
-
-    .about-me-inner__title{
-        font-size: 32px;
-        line-height: 38px;
-    }
-
-    .about-me-inner__text{
-        font-size: 18px;
-        line-height: 24px;
-        margin: 32px 0 72px 0;
-    }
-
-    .about-me__img {
-        width: 464px;
-        height: 464px;
-    }
-
-    .about-me__img > img{
-        width: 440px;
-        height: 440px;
-    }
-
-    .services-inner {
-        margin: 40px 0;
-    }
-
-    .services__title {
-        font-size: 32px;
-        line-height: 38px;
-        margin-bottom: 32px;
-        text-align: right;
-    }
 }
