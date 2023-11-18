@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -125,26 +126,26 @@
                     <div class="about-me__ellipse">
                         <div class="about-me__ellipse__blur about-me__ellipse__blur-post "></div>
                     </div>
-                    <div class="about-post-inner__box-wrap">
-                        <a class="about-post-inner__btn-prev">
+                    <div class="about-post-inner__box-wrap" >
+                        <a class="about-post-inner__btn-prev" data-aos="fade-right"  data-aos-duration="1000">
                             <svg class="about-post-inner__btn-prev-icon" width="64px" height="20px">
                                 <use href="images/icons.svg#icon-arrow-long-left"></use>
                             </svg>
                             <span>Home</span>
                         </a>
 
-                        <h2 class="about-post-inner__box-title">
+                        <h2 class="about-post-inner__box-title" data-aos="fade-right" data-aos-duration="1200">
                             Контент-зйомка для майстра по волоссям
                         </h2>
-                        <div>
-                            <h2 class="about-post-inner__box-title about-post-inner__box-title-mini">
+                        <div data-aos="fade-right"data-aos-duration="1100">
+                            <h2 class="about-post-inner__box-title about-post-inner__box-title-mini" data-aos="fade-right" data-aos-duration="1300">
                                 Запит
                             </h2>
-                            <div class="about-post-inner__box-desr">На відео вмістити всю інформацію, як відбувається
+                            <div class="about-post-inner__box-desr" data-aos="fade-right" data-aos-duration="1400">На відео вмістити всю інформацію, як відбувається
                                 процедура.
                                 Та створи фото професійного формату
                             </div>
-                            <a href="" class="about-post-inner__box-btn">Замовити послуги</a>
+                            <a href="" class="about-post-inner__box-btn" data-aos="fade-right" >Замовити послуги</a>
                         </div>
                     </div>
                     <img src="images/post-1.jpg" alt="" class="about-post-inner__box-img">
@@ -152,15 +153,15 @@
 
 
                 <div class="about-post-inner__box">
-                    <h2 class="about-post-inner__box-title">
+                    <h2 class="about-post-inner__box-title" data-aos="fade-right" data-aos-duration="1000">
                         Процес
                     </h2>
                     <div class="about-post-inner__box-2-wrap">
-                        <div class="about-post-inner__box-desr about-post-inner__box-desr-2">Зйомка була розділена на
+                        <div class="about-post-inner__box-desr about-post-inner__box-desr-2" data-aos="fade-right" data-aos-duration="1200">Зйомка була розділена на
                             два дні. В перший день було
                             ствроено фотографії професійного формату, в другий день створили відео та фото з моделлю.
                         </div>
-                        <a href="" class="about-post-inner__box-2-btn">Переглянути відео</a>
+                        <a href="" class="about-post-inner__box-2-btn" data-aos="fade-left" data-aos-duration="1200">Переглянути відео</a>
                     </div>
                     <div class="about-post-inner__box-img-wrap">
                         <img src="images/post-2.jpg" alt="" class="about-post-inner__box-img about-post-inner__box-img-1">
@@ -180,11 +181,11 @@
                 </div>
 
                 <div class="about-post-inner__box about-post-inner__box-bonus">
-                    <h2 class="about-post-inner__box-title">
+                    <h2 class="about-post-inner__box-title" data-aos="fade-right" data-aos-duration="1200">
                         БОНУС - розкладка візуала
                     </h2>
                     <img src="images/post-4.jpg" alt="" class="about-post-inner__box-img">
-                    <a href="" class="about-post-inner__box-btn">Замовити послуги</a>
+                    <a href="" class="about-post-inner__box-btn" data-aos="fade-left" data-aos-duration="1200">Замовити послуги</a>
                 </div>
             </div>
         </div>
@@ -231,7 +232,7 @@
 
     <section class="button-post">
         <div class="container">
-            <a href="" class="button-post-link">Переглянути відео</a>
+            <a href="" class="button-post-link" data-aos="fade-right" data-aos-duration="1200">Переглянути відео</a>
         </div>
     </section>
 </main>
@@ -325,10 +326,17 @@
     <a href="#">made ALK</a>
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script type="module" src="js/mobile-menu.js"></script>
+<script type="module" src="js/services-swiper.js"></script>
+<script type="module" src="js/reviews-swiper.js"></script>
 <script type="module" src="js/slider-gallery-post.js"></script>
 
 
-<script type="module" src="js/mobile-menu.js"></script>
+
 </body>
 </html>
