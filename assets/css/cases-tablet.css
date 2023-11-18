@@ -1,9 +1,4 @@
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding: 0 32px;
-    }
-
     .cases__title {
         font-size: 32px;
         line-height: 38px;
@@ -21,6 +16,9 @@
         background-size: cover ;
 
     }
+    .cases__inner-text > span{
+        display: block;
+    }
 
     .cases__text {
         font-size: 28px;
@@ -30,13 +28,18 @@
     .cases__inner {
       display: flex;
       gap: 47px;
+        padding: 0;
     }
 
+
     .cases__inner-text {
-        position: relative;
-        width: 340px;
-        height: auto;
+        gap: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
     }
+
 
     .cases__text {
         font-size: 28px;
@@ -48,12 +51,6 @@
         line-height: 22px;
     }
 
-    .cases__button {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-
-    }
 
     .cases__button-icon {
         width: 116px ;
