@@ -1,5 +1,4 @@
 @media screen and (min-width: 768px) {
-
     .footer-inner{
         padding: 64px 0 40px;
         position: relative;
@@ -51,8 +50,8 @@
     }
 
     .footer-social-item{
-    transform: scale(1.037);
-}
+        transform: scale(1.037);
+    }
 
     .footer-inner__button {
         font-size: 19px;

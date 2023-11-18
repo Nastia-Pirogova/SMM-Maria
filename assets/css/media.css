@@ -11,22 +11,12 @@
     }
 }
 
-/*@media screen and (min-width: 1240px) {*/
-/*    .container {*/
-/*        width:100%;*/
-/*        padding: 0 60px;*/
-/*    }*/
-/*}*/
+
 @media screen and (min-width: 1440px) {
     .container {
         width: 1440px;
         padding: 0 80px;
     }
 }
-/*@media screen and (min-width: 1920px) {*/
-/*    .container {*/
-/*        width: 1920px;*/
-/*        padding: 0 80px;*/
-/*    }*/
-/*}*/
+
 
