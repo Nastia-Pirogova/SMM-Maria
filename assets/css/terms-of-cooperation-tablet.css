@@ -1,11 +1,5 @@
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding: 0 32px;
-    }
-
     .terms-of-cooperation__inner {
-        padding: 40px 32px;
         position: relative;
     }
 
@@ -24,7 +18,13 @@
 
     .terms-of-cooperation-logo1-tablet-desktop, .terms-of-cooperation-logo2-tablet-desktop {
        position: absolute;
-        display: flex;
+        display: block;
+        color: rgba(255, 255, 255, 0.10);
+        font-family: Abhaya Libre,sans-serif;
+        font-size: 108px;
+        font-weight: 700;
+        letter-spacing: 5.4px;
+        text-transform: uppercase;
     }
 
     .terms-of-cooperation-logo1-tablet-desktop {
@@ -47,8 +47,6 @@
         font-size: 16px;
         line-height: 19px;
         padding: 17px 43.5px;
-        width: 231px;
-        height: 53px;
         margin-top: 32px;
         border-radius: 51px;
     }

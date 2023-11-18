@@ -45,7 +45,7 @@
 .left-button-reviews,.right-button-reviews {
     padding: 10px;
     cursor: pointer;
-
+    background-color: transparent;
 }
 
 .left-button-reviews:hover{

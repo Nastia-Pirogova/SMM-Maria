@@ -121,9 +121,7 @@
                     <img src="images/hero-maria.jpg" alt="">
                 </div>
                 <h2 class="hero-inner__title-down">Шевцова</h2>
-                <button class="hero__button">
-                    <a href="" >Безкоштовна консультація</a>
-                </button>
+                    <a href="" class="hero__button">Безкоштовна консультація</a>
             </div>
         </div>
     </section>
@@ -218,9 +216,7 @@
                             <li class="slide-text-list"> • поради щодо позування.</li>
                         </ul>
                         <br>
-                        <button class="slide-button ">
-                            <a href="">Дізнатися ціну</a>
-                        </button>
+                            <a href="" class="slide-button ">Дізнатися ціну</a>
                     </div>
 
 
@@ -333,16 +329,16 @@
                 </div>
             </div>
             <div class="s-button">
-                <div class="s-button-prev">
+                <button class="s-button-prev">
                     <svg class="swiper-button-prev-icon" width="64px" height="32px">
                         <use href="images/icons.svg#icon-arrow-left"></use>
                     </svg>
-                </div>
-                <div class="s-button-next">
+                </button>
+                <button class="s-button-next">
                     <svg class="swiper-button-next-icon" width="64px" height="32px">
                         <use href="images/icons.svg#icon-arrow-right"></use>
                     </svg>
-                </div>
+                </button>
             </div>
         </div>
     </div>
@@ -354,11 +350,13 @@
         <div class="terms-of-cooperation__inner">
             <div class="terms-of-cooperation__title title">Умови співпраці</div>
             <img class="terms-of-cooperation__photo" src="images/terms-of-cooperation-maria.jpg" alt="">
-            <img src="images/terms-of-cooperation-logo1-tablet-desktop.png" alt=""
-                 class="terms-of-cooperation-logo1-tablet-desktop">
-            <img src="images/terms-of-cooperation-logo2-tablet-desktop.png" alt=""
-                 class="terms-of-cooperation-logo2-tablet-desktop">
+<!--            <img src="images/terms-of-cooperation-logo1-tablet-desktop.png" alt=""-->
+<!--                 class="terms-of-cooperation-logo1-tablet-desktop">-->
+<!--            <img src="images/terms-of-cooperation-logo2-tablet-desktop.png" alt=""-->
+<!--                 class="terms-of-cooperation-logo2-tablet-desktop">-->
 
+            <div class="terms-of-cooperation-logo1-tablet-desktop">content</div>
+            <div class="terms-of-cooperation-logo2-tablet-desktop">maker</div>
             <p class="terms-of-cooperation__text">Це потрібно для, того аби убезпечити себе та вас від непорозумінь
                 та неприємних ситуацій. </p>
             <br>
@@ -383,9 +381,7 @@
             <br>
             <p class="terms-of-cooperation__text">Я думаю, що непорозумінь в нас виникати не буде, тому скоріш
                 записуйся на безкоштовну консультацію! ❤️</p>
-            <button class="terms-of-cooperation__button">
-                <a href="" >Замовити послуги</a>
-            </button>
+            <a href=""class="terms-of-cooperation__button" >Замовити послуги</a>
         </div>
     </div>
 </section>
@@ -528,16 +524,16 @@
 
 
                 <div class="button__reviews">
-                    <div class="left-button-reviews">
+                    <button class="left-button-reviews">
                         <svg width="64px" height="32px">
                             <use href="images/icons.svg#icon-arrow-left"></use>
                         </svg>
-                    </div>
-                    <div class="right-button-reviews">
+                    </button>
+                    <button class="right-button-reviews">
                         <svg width="64px" height="32px">
                             <use href="images/icons.svg#icon-arrow-right"></use>
                         </svg>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
@@ -552,19 +548,14 @@
 
                 <form class="contact-me__form" action="">
 
-                    <label for="name"></label>
                     <input class="contact-me__item-style" id="name" type="text" placeholder="Ім’я"/>
 
-                    <label for="email"></label>
                     <input class="contact-me__item-style" id="email" type="email" placeholder="Пошта"/>
 
-                    <label for="tel"></label>
                     <input class="contact-me__item-style" id="tel" type="tel" placeholder="Телефон"/>
 
-                    <label for="message">
                         <textarea class="contact-me__item-style" id="message" name="message" rows="8"
                                   placeholder="Повідомлення"></textarea>
-                    </label>
 
                     <button class="form-button" type="submit" name="send">Відправити</button>
                 </form>

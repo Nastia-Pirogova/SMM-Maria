@@ -1,8 +1,4 @@
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding: 0 32px;
-    }
 
     .footer-inner{
         padding: 64px 0 40px;
@@ -19,6 +15,7 @@
     .footer-top-link {
         display: flex;
         justify-content: space-around;
+        margin: 0 0 55px 0;
     }
 
     .footer-inner__top {
