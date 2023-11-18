@@ -1,0 +1,47 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+
+    .contact-me__inner {
+        margin: 64px 0;
+    }
+
+    .contact-me__title {
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+
+    .contact-me__form-inner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-me__form{
+        width: 473px;
+
+    }
+
+    .contact-me__item-style {
+        margin-bottom: 16px;
+        border-radius: 20px;
+        padding: 20px 24px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    textarea#message {
+        margin-bottom: 32px;
+    }
+
+    .form-button{
+        border-radius: 51px;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 17.5px 10px;
+    }
+
+}

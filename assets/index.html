@@ -121,7 +121,7 @@
                     <img src="images/hero-maria.jpg" alt="">
                 </div>
                 <h2 class="hero-inner__title-down">Шевцова</h2>
-                <button class="hero__button">Безкоштовна консультація</button>
+                    <a href="" class="hero__button">Безкоштовна консультація</a>
             </div>
         </div>
     </section>
@@ -164,8 +164,8 @@
 
 
             <div class="swiper">
-                <div class="swiper-wrapper services-swiper">
-                    <div class="swiper-slide swiper-slide-style swiper-slide-services">
+                <div class="swiper-wrapper services-swiper services-tablet-slide-style" id="services-swiper-js">
+                    <div class="swiper-slide swiper-slide-style ">
 
                         <div class="slide__title">Контент план</div>
                         <ul class="slide-list">
@@ -177,7 +177,13 @@
                             </li>
                             <br>
                             <li class="slide-text-list">
-                                Сюди входить прописання тем для історій та дописів (фото/відео + тема).
+                                Сюди входить прописання тем для історій та дописів (фото/відео + тема). <br>
+
+                                <p class="slide-text-list-tablet">
+                                    <br>
+                                    Я детально пропишу <span style="color:var(--pink-2);">ПРО ЩО</span>
+                                    можна розповісти, як це краще описати та доступно подати інформацію підписнику.
+                                </p>
                             </li>
                             <br>
                             <li class="slide-text-list">
@@ -210,34 +216,34 @@
                             <li class="slide-text-list"> • поради щодо позування.</li>
                         </ul>
                         <br>
-                        <button class="slide-button ">Дізнатися ціну</button>
+                            <a href="" class="slide-button ">Дізнатися ціну</a>
                     </div>
 
 
                     <div class="swiper-slide swiper-slide-style">
-                        <div class="slide__title-pages">Ведення сторінки</div>
-                        <p class="slide-text-pages">Обовязки SMM-менеджера при повному веденні сторінки:</p>
+                        <div class="slide__title">Ведення сторінки</div>
+                        <p class="slide-text">Обовязки SMM-менеджера при повному веденні сторінки:</p>
                         <br>
                         <ul class="slide-list">
-                            <li class="slide-text-list-pages">• Розробка та виконання стратегії просування бренду</li>
-                            <li class="slide-text-list-pages">• Упакуваня профілю та створення концепції</li>
-                            <li class="slide-text-list-pages">• Створення та оновлення Хайлайтс</li>
-                            <li class="slide-text-list-pages">• Аналіз результатів, цільової аудиторії, конкурентів та
+                            <li class="slide-text-list">• Розробка та виконання стратегії просування бренду</li>
+                            <li class="slide-text-list">• Упакуваня профілю та створення концепції</li>
+                            <li class="slide-text-list">• Створення та оновлення Хайлайтс</li>
+                            <li class="slide-text-list">• Аналіз результатів, цільової аудиторії, конкурентів та
                                 вивчення трендів
                             </li>
-                            <li class="slide-text-list-pages">• Настроювання таргетованої реклами</li>
-                            <li class="slide-text-list-pages">• Створення та редагування контенту</li>
-                            <li class="slide-text-list-pages">• Взаємодія з аудиторією та відповіді на їх питання та
+                            <li class="slide-text-list">• Настроювання таргетованої реклами</li>
+                            <li class="slide-text-list">• Створення та редагування контенту</li>
+                            <li class="slide-text-list">• Взаємодія з аудиторією та відповіді на їх питання та
                                 повідомлення
                             </li>
-                            <li class="slide-text-list-pages">• Робота з рекламними компаніями у соціальних мережах</li>
+                            <li class="slide-text-list">• Робота з рекламними компаніями у соціальних мережах</li>
                         </ul>
                     </div>
 
 
                     <div class="swiper-slide swiper-slide-style">
                         <div class="slide__title slide-style">Упакування профілю</div>
-                        <p class="slide-text-profile">Оформлення твого інстаграму - це перше на що звертає увагу клієнт!
+                        <p class="slide-text">Оформлення твого інстаграму - це перше на що звертає увагу клієнт!
                             Я можу запропонувати вам свої послуги, щоб ви швидше та ефективніше залучили нових клієнтів
                             просто завдяки гарній упаковці: </p>
                         <br>
@@ -323,16 +329,16 @@
                 </div>
             </div>
             <div class="s-button">
-                <div class="s-button-prev">
+                <button class="s-button-prev">
                     <svg class="swiper-button-prev-icon" width="64px" height="32px">
                         <use href="images/icons.svg#icon-arrow-left"></use>
                     </svg>
-                </div>
-                <div class="s-button-next">
+                </button>
+                <button class="s-button-next">
                     <svg class="swiper-button-next-icon" width="64px" height="32px">
                         <use href="images/icons.svg#icon-arrow-right"></use>
                     </svg>
-                </div>
+                </button>
             </div>
         </div>
     </div>
@@ -344,7 +350,14 @@
         <div class="terms-of-cooperation__inner">
             <div class="terms-of-cooperation__title title">Умови співпраці</div>
             <img class="terms-of-cooperation__photo" src="images/terms-of-cooperation-maria.jpg" alt="">
-            <p class="terms-of-cooperation__text1">Це потрібно для, того аби убезпечити себе та вас від непорозумінь
+<!--            <img src="images/terms-of-cooperation-logo1-tablet-desktop.png" alt=""-->
+<!--                 class="terms-of-cooperation-logo1-tablet-desktop">-->
+<!--            <img src="images/terms-of-cooperation-logo2-tablet-desktop.png" alt=""-->
+<!--                 class="terms-of-cooperation-logo2-tablet-desktop">-->
+
+            <div class="terms-of-cooperation-logo1-tablet-desktop">content</div>
+            <div class="terms-of-cooperation-logo2-tablet-desktop">maker</div>
+            <p class="terms-of-cooperation__text">Це потрібно для, того аби убезпечити себе та вас від непорозумінь
                 та неприємних ситуацій. </p>
             <br>
             <ul class="terms-of-cooperation__list">
@@ -366,9 +379,9 @@
                 </li>
             </ul>
             <br>
-            <p class="terms-of-cooperation__text2">Я думаю, що непорозумінь в нас виникати не буде, тому скоріш
+            <p class="terms-of-cooperation__text">Я думаю, що непорозумінь в нас виникати не буде, тому скоріш
                 записуйся на безкоштовну консультацію! ❤️</p>
-            <button class="terms-of-cooperation__button">Замовити послуги</button>
+            <a href=""class="terms-of-cooperation__button" >Замовити послуги</a>
         </div>
     </div>
 </section>
@@ -376,79 +389,99 @@
 <section class="cases" id="cases">
     <div class="container">
         <div class="cases__title ">Кейси</div>
+
         <div class="cases-inner">
             <div class="cases__inner">
                 <img class="cases__photo" src="images/case-1.jpg" alt="">
                 <a class="cases__inner-text" href="">
-                    <div class="cases__text">Контент-зйомка для майстра по волоссям</div>
-                    <button class="cases__button">
-                        <svg width="73px" height="32px">
+                    <span>SMM</span>
+                    <div class="cases__text">
+                        Контент-зйомка для майстра по волоссям
+                    </div>
+                    <div class="cases__button">
+                        <svg class="cases__button-icon" width="73px" height="32px">
                             <use href="images/icons.svg#icon-arrow-right"></use>
                         </svg>
-                    </button>
+                    </div>
                 </a>
             </div>
 
             <div class="cases__inner">
                 <img class="cases__photo" src="images/case-2.jpg" alt="">
                 <a class="cases__inner-text" href="">
-                    <div class="cases__text">Результати “до/після”</div>
-                    <button class="cases__button">
-                        <svg width="73px" height="32px">
+                    <span>SMM</span>
+                    <div class="cases__text">
+                        Результати “до/після”
+                    </div>
+                    <div class="cases__button">
+                        <svg class="cases__button-icon" width="73px" height="32px">
                             <use href="images/icons.svg#icon-arrow-right"></use>
                         </svg>
-                    </button>
+                    </div>
                 </a>
             </div>
 
             <div class="cases__inner">
                 <img class="cases__photo" src="images/case-3.jpg" alt="">
                 <a class="cases__inner-text" href="">
-                    <div class="cases__text">Контент-зйомка для майстра з грумінгу</div>
-                    <button class="cases__button">
-                        <svg width="73px" height="32px">
+                    <span>SMM</span>
+                    <div class="cases__text">
+                        Контент-зйомка для майстра з грумінгу
+                    </div>
+                    <div class="cases__button">
+                        <svg class="cases__button-icon" width="73px" height="32px">
                             <use href="images/icons.svg#icon-arrow-right"></use>
                         </svg>
-                    </button>
+                    </div>
                 </a>
             </div>
 
             <div class="cases__inner">
                 <img class="cases__photo" src="images/case-4.jpg" alt="">
                 <a class="cases__inner-text" href="">
-                    <div class="cases__text">Розробка візуалу для гіпнотерапевта</div>
-                    <button class="cases__button">
-                        <svg width="73px" height="32px">
+                    <span>SMM</span>
+                    <div class="cases__text">
+                        Контент-зйомка для салону краси: масаж ендосфери
+                    </div>
+                    <div class="cases__button">
+                        <svg class="cases__button-icon" width="73px" height="32px">
                             <use href="images/icons.svg#icon-arrow-right"></use>
                         </svg>
-                    </button>
+                    </div>
                 </a>
             </div>
 
             <div class="cases__inner">
                 <img class="cases__photo" src="images/case-5.jpg" alt="">
                 <a class="cases__inner-text" href="">
-                    <div class="cases__text">Контент-зйомка для особистого бренду</div>
-                    <button class="cases__button">
-                        <svg width="73px" height="32px">
+                    <span>SMM</span>
+                    <div class="cases__text">
+                        Контент-зйомка для особистого бренду
+                    </div>
+                    <div class="cases__button">
+                        <svg class="cases__button-icon" width="73px" height="32px">
                             <use href="images/icons.svg#icon-arrow-right"></use>
                         </svg>
-                    </button>
+                    </div>
                 </a>
             </div>
 
             <div class="cases__inner">
                 <img class="cases__photo" src="images/case-6.jpg" alt="">
                 <a class="cases__inner-text" href="">
-                    <div class="cases__text">Повне ведення сторінки для лікаря невролога</div>
-                    <button class="cases__button">
-                        <svg width="73px" height="32px">
+                    <span>SMM</span>
+                    <div class="cases__text">
+                        Повне ведення сторінки для лікаря невролога
+                    </div>
+                    <div class="cases__button">
+                        <svg class="cases__button-icon" width="73px" height="32px">
                             <use href="images/icons.svg#icon-arrow-right"></use>
                         </svg>
-                    </button>
+                    </div>
                 </a>
             </div>
         </div>
+    </div>
     </div>
 </section>
 
@@ -468,8 +501,10 @@
 
                     <div class="swiper-slide reviews-swiper-slide-style">
                         <div class="swiper-slide__inner-text">
-                            Дякую Вам за нашу співпрацю<br>💙💙💙<br> відео вийшли крутезні 😜<br>текст на відео теж 👍<br>люблю
-                            відповідальних людей,<br>ви саме така 😊😊😊
+                            Ти надзвичайно талановита, бо<br>бачиш красу і найкращий кадр<br>навіть у буденних речах
+                            та<br>
+                            показуєш його усім ☺ Дякую за<br>
+                            те, що ти просто така є! 🤍
                         </div>
                     </div>
 
@@ -483,16 +518,16 @@
 
 
                 <div class="button__reviews">
-                    <div class="left-button-reviews">
+                    <button class="left-button-reviews">
                         <svg width="64px" height="32px">
                             <use href="images/icons.svg#icon-arrow-left"></use>
                         </svg>
-                    </div>
-                    <div class="right-button-reviews">
+                    </button>
+                    <button class="right-button-reviews">
                         <svg width="64px" height="32px">
                             <use href="images/icons.svg#icon-arrow-right"></use>
                         </svg>
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
@@ -505,21 +540,16 @@
 
             <div class="contact-me__form-inner">
 
-                <form action="">
+                <form class="contact-me__form" action="">
 
-                    <label for="name"></label>
                     <input class="contact-me__item-style" id="name" type="text" placeholder="Ім’я"/>
 
-                    <label for="email"></label>
                     <input class="contact-me__item-style" id="email" type="email" placeholder="Пошта"/>
 
-                    <label for="tel"></label>
                     <input class="contact-me__item-style" id="tel" type="tel" placeholder="Телефон"/>
 
-                    <label for="message">
                         <textarea class="contact-me__item-style" id="message" name="message" rows="8"
                                   placeholder="Повідомлення"></textarea>
-                    </label>
 
                     <button class="form-button" type="submit" name="send">Відправити</button>
                 </form>
@@ -532,78 +562,85 @@
 <footer class="footer">
     <div class="container">
         <div class="footer-inner">
-            <div class="footer-inner__top">
-                <ul class="footer-inner__mobile-list1">
-                    <li class="footer-inner__mobile-list-item">
-                        <a href="#about-me" class="footer-inner__mobile-list-link">Про мене</a>
+            <div class="footer-top-link">
+                <div class="footer-inner__top">
+                    <ul class="footer-inner__mobile-list1">
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="#about-me" class="footer-inner__mobile-list-link">Про мене</a>
+                        </li>
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="#services" class="footer-inner__mobile-list-link">Послуги</a>
+                        </li>
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="#contact" class="footer-inner__mobile-list-link">Контакти</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-inner__mobile-list2">
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="#cases" class="footer-inner__mobile-list-link">Кейси</a>
+                        </li>
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="#terms-of-cooperation" class="footer-inner__mobile-list-link">Співпраця</a>
+                        </li>
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="#reviews" class="footer-inner__mobile-list-link">Відгуки</a>
+                        </li>
+                    </ul>
+                    <button class="footer-inner__top-button">
+                        <svg class="footer-inner__top-button__svg" width="18px" height="32px"
+                             preserveAspectRatio="none">
+                            <use href="images/icons.svg#icon-arrow-up"></use>
+                        </svg>
+                    </button>
+                </div>
+
+                <ul class="contacts-list" id="contact">
+                    <li class="contacts-list-item">
+                        <a href="tel:+380667491708" class="contacts-list-link">+380 66 749 17 08</a>
                     </li>
-                    <li class="footer-inner__mobile-list-item">
-                        <a href="#services" class="footer-inner__mobile-list-link">Послуги</a>
+                    <li class="contacts-list-item">
+                        <a href="#" class="contacts-list-link">@mariia_shevtsova</a>
                     </li>
-                    <li class="footer-inner__mobile-list-item">
-                        <a href="#contact" class="footer-inner__mobile-list-link">Контакти</a>
+                    <li class="contacts-list-item">
+                        <a href="mailto:mshevtsova13@gmail.com" class="contacts-list-link">mshevtsova13@gmail.com</a>
                     </li>
                 </ul>
-                <ul class="footer-inner__mobile-list2">
-                    <li class="footer-inner__mobile-list-item">
-                        <a href="#cases" class="footer-inner__mobile-list-link">Кейси</a>
+            </div>
+            <div class="footer-list-button">
+                <ul class="footer-social-list">
+                    <li class="footer-social-item">
+                        <a class="footer-social__item-link" href="">
+                            <svg class="footer-social-icon" width="32px" height="32px">
+                                <use href="images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="footer-inner__mobile-list-item">
-                        <a href="#terms-of-cooperation" class="footer-inner__mobile-list-link">Співпраця</a>
+                    <li class="footer-social-item">
+                        <a class="footer-social__item-link" href="">
+                            <svg class="footer-social-icon" width="32px" height="32px">
+                                <use href="images/icons.svg#icon-email"></use>
+                            </svg>
+                        </a>
                     </li>
-                    <li class="footer-inner__mobile-list-item">
-                        <a href="#reviews" class="footer-inner__mobile-list-link">Відгуки</a>
+                    <li class="footer-social-item">
+                        <a class="footer-social__item-link" href="">
+                            <svg class="footer-social-icon" width="32px" height="32px">
+                                <use href="images/icons.svg#icon-phone"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a class="footer-social__item-link" href="">
+                            <svg class="footer-social-icon" width="32px" height="32px">
+                                <use href="images/icons.svg#icon-telegram"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
-                <button class="footer-inner__top-button">
-                    <svg class="footer-inner__top-button__svg" width="18px" height="32px" preserveAspectRatio="none">
-                        <use href="images/icons.svg#icon-arrow-up"></use>
-                    </svg>
+                <button class="footer-inner__button">
+                    <a href="">Безкоштовна консультація</a>
                 </button>
             </div>
-
-            <ul class="contacts-list" id="contact">
-                <li class="contacts-list-item">
-                    <a href="tel:+380667491708" class="contacts-list-link">+380 66 749 17 08</a>
-                </li>
-                <li class="contacts-list-item">
-                    <a href="#" class="contacts-list-link">@mariia_shevtsova</a>
-                </li>
-                <li class="contacts-list-item">
-                    <a href="mailto:mshevtsova13@gmail.com" class="contacts-list-link">mshevtsova13@gmail.com</a>
-                </li>
-            </ul>
-            <ul class="footer-social-list">
-                <li class="footer-social-item">
-                    <a class="footer-social__item-link" href="">
-                        <svg class="footer-social-icon" width="32px" height="32px">
-                            <use href="images/icons.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-social-item">
-                    <a class="footer-social__item-link" href="">
-                        <svg class="footer-social-icon" width="32px" height="32px">
-                            <use href="images/icons.svg#icon-email"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-social-item">
-                    <a class="footer-social__item-link" href="">
-                        <svg class="footer-social-icon" width="32px" height="32px">
-                            <use href="images/icons.svg#icon-phone"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="footer-social-item">
-                    <a class="footer-social__item-link" href="">
-                        <svg class="footer-social-icon" width="32px" height="32px">
-                            <use href="images/icons.svg#icon-telegram"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-            <button class="footer-inner__button">Безкоштовна консультація</button>
         </div>
     </div>
 </footer>

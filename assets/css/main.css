@@ -10,23 +10,19 @@
 @import "footer.css";
 @import "post.css";
 @import "media.css";
-@import "smm-tablet.css";
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@import "post.css";
+@import "media.css";
+@import "post-tablet.css";
+@import "header-tablet.css";
+@import "mobile-menu-tablet.css";
+@import "hero-tablet.css";
+@import "about-me-tablet.css";
+@import "services-tablet.css";
+@import "terms-of-cooperation-tablet.css";
+@import "cases-tablet.css";
+@import "reviews-tablet.css";
+@import "contack-me-tablet.css";
+@import "footer-tablet.css";
 @import "post-tablet.css";
 @import "post-desktop.css";
+

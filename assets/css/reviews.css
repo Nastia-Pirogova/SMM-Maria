@@ -28,9 +28,9 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
 
 .button__reviews {
@@ -45,7 +45,7 @@
 .left-button-reviews,.right-button-reviews {
     padding: 10px;
     cursor: pointer;
-
+    background-color: transparent;
 }
 
 .left-button-reviews:hover{

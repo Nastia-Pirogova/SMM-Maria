@@ -1,0 +1,60 @@
+@media screen and (min-width: 768px) {
+    .cases__title {
+        font-size: 32px;
+        line-height: 38px;
+        margin: 40px 0 30px;
+    }
+
+    .cases__photo {
+        display: block;
+        width: 304px ;
+        height: 268px;
+        margin: 14px 0 0;
+    }
+
+    .cases__photo > img {
+        background-size: cover ;
+
+    }
+    .cases__inner-text > span{
+        display: block;
+    }
+
+    .cases__text {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .cases__inner {
+      display: flex;
+      gap: 47px;
+        padding: 0;
+    }
+
+
+    .cases__inner-text {
+        gap: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+    .cases__text {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .cases__text span{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .cases__button-icon {
+        width: 116px ;
+    }
+
+
+}

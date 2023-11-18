@@ -1,0 +1,37 @@
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+
+    .mobile-menu{
+        padding: 32px;
+    }
+    .mobile-menu-container {
+        gap: 120px;
+    }
+
+    .mobile-menu-inner_btn svg{
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+    }
+
+    .mobile-menu__item-link{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .mobile-social-item {
+        transform: scale(1.037);
+    }
+
+    .mobile-social-list {
+        gap: 32.67px;
+        margin-top: 0;
+    }
+
+}
+
+
+

@@ -1,0 +1,54 @@
+@media screen and (min-width: 768px) {
+    .terms-of-cooperation__inner {
+        position: relative;
+    }
+
+    .terms-of-cooperation__title{
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .terms-of-cooperation__photo{
+        width: 382px;
+        height: 521px;
+        border-radius: 0 70px 0 0;
+        margin: 32px 0;
+        padding: 0;
+    }
+
+    .terms-of-cooperation-logo1-tablet-desktop, .terms-of-cooperation-logo2-tablet-desktop {
+       position: absolute;
+        display: block;
+        color: rgba(255, 255, 255, 0.10);
+        font-family: Abhaya Libre,sans-serif;
+        font-size: 108px;
+        font-weight: 700;
+        letter-spacing: 5.4px;
+        text-transform: uppercase;
+    }
+
+    .terms-of-cooperation-logo1-tablet-desktop {
+        top: 68px;
+        right: -25px;
+    }
+
+    .terms-of-cooperation-logo2-tablet-desktop {
+        bottom: 345px ;
+        right: -25px;
+    }
+
+    .terms-of-cooperation__inner-text{
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 32px;
+    }
+
+    .terms-of-cooperation__button{
+        font-size: 16px;
+        line-height: 19px;
+        padding: 17px 43.5px;
+        margin-top: 32px;
+        border-radius: 51px;
+    }
+
+}

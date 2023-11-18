@@ -47,15 +47,18 @@
     line-height: 17px;
 }
 
+.slide-text-list-tablet{
+    display: none;
+}
+
 .slide-button {
-    width: 125px;
-    height: 27px;
     border-radius: 10px;
     border: 1px solid var(--white);
     font-size: 12px;
     background-color: transparent;
     color: var(--white);
-
+    padding: 10px 15px;
+    display: inline-block;
 }
 
 
@@ -91,6 +94,7 @@
     padding: 10px;
     fill: var(--white);
     cursor: pointer;
+    background-color: transparent;
 }
 
 .s-button-prev:hover{
