@@ -106,7 +106,7 @@
 </div>
 
 <main>
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="container">
             <div class="hero-inner">
                 <h1 class="hero-inner__title">Марія</h1>
@@ -586,12 +586,11 @@
                             <a href="#reviews" class="footer-inner__mobile-list-link">Відгуки</a>
                         </li>
                     </ul>
-                    <button class="footer-inner__top-button">
-                        <svg class="footer-inner__top-button__svg" width="18px" height="32px"
-                             preserveAspectRatio="none">
+                    <a class="footer-inner__top-button" href="#hero">
+                        <svg class="footer-inner__top-button__svg" width="18px" height="32px">
                             <use href="images/icons.svg#icon-arrow-up"></use>
                         </svg>
-                    </button>
+                    </a>
                 </div>
 
                 <ul class="contacts-list" id="contact">
@@ -637,9 +636,7 @@
                         </a>
                     </li>
                 </ul>
-                <button class="footer-inner__button">
-                    <a href="">Безкоштовна консультація</a>
-                </button>
+                    <a href="" class="footer-inner__button" >Безкоштовна консультація</a>
             </div>
         </div>
     </div>
@@ -661,7 +658,6 @@
 <script type="module" src="js/reviews-swiper.js"></script>
 
 
-<script type="module" src="js/footer-scroll-up.js"></script>
 
 
 </body>
