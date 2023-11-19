@@ -1,4 +1,4 @@
-let mySwiper; //Cоздали
+let mySwiper;
 document.addEventListener("DOMContentLoaded", function () {
 
     checkScreenWidth();//Check
