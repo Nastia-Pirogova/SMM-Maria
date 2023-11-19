@@ -30,6 +30,7 @@
     }
 
     .contact-me-photo-inner {
+        display: block;
         position: relative;
     }
 

@@ -1,3 +1,11 @@
+.contact-me-photo-inner{
+    display: none;
+}
+
+.contact-me__title-desktop{
+    display: none;
+}
+
 .contact-me__inner{
     margin: 40px 0;
 }
