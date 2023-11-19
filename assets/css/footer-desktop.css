@@ -1,0 +1,55 @@
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+        padding: 0 80px;
+    }
+
+    .footer-inner{
+        padding: 80px 0 52px;
+    }
+
+    .footer-inner__mobile-list1, .footer-inner__mobile-list2 {
+        gap: 42px;
+        margin-bottom: 120px;
+    }
+
+    .contacts-list-link{
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .footer-inner__mobile-list-link {
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .footer-inner__top-button {
+        width: 86px;
+        height: 86px;
+    }
+
+    .footer-inner__top-button > svg {
+        width: 26px;
+        height: 64px;
+    }
+
+    .footer-social-list {
+        gap: 40px;
+    }
+
+    .footer-social-item {
+        transform: scale(1.185);
+    }
+
+    .footer-inner__button {
+        padding: 19.5px 41px;
+        width: 540px;
+        text-align: center;
+    }
+
+    .copyright{
+        font-size: 24px;
+        line-height: 28px;
+        padding: 30px 0;
+    }
+}
