@@ -3,6 +3,10 @@
         display: none;
     }
 
+    .contact-me__title-desktop{
+        display: flex;
+    }
+
     .contact-me__inner {
         margin: 100px 0;
         display: flex;
@@ -30,6 +34,7 @@
     }
 
     .contact-me-photo-inner {
+        display: block;
         position: relative;
     }
 

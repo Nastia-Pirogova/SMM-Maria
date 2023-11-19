@@ -1,4 +1,12 @@
 @media screen and (min-width: 768px) {
+    .contact-me-photo-inner{
+        display: none;
+    }
+
+    .contact-me__title-desktop{
+        display: none;
+    }
+
     .contact-me__inner {
         margin: 64px 0;
     }
