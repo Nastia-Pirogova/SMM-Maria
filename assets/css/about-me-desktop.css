@@ -1,8 +1,4 @@
 @media screen and (min-width: 1440px) {
-    .container {
-        width: 1440px;
-        padding: 0 80px;
-    }
 
     .about-me-inner{
         padding: 100px 0 100px;
@@ -19,7 +15,6 @@
 
     .about-me-content {
         display: flex;
-        justify-content: space-between;
         align-items: center;
         gap: 165px;
     }

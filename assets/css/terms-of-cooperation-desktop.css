@@ -1,9 +1,4 @@
 @media screen and (min-width: 1440px) {
-    .container {
-        width: 1440px;
-        padding: 0 80px;
-    }
-
     .terms-of-cooperation__inner {
         padding: 100px 0;
     }
