@@ -1,0 +1,64 @@
+@media screen and (min-width: 1440px) {
+    .contact-me__title {
+        display: none;
+    }
+
+    .contact-me__inner {
+        margin: 100px 0;
+        display: flex;
+        align-items: center;
+        gap: 222px;
+    }
+
+    .contact-me__form-inner {
+        display: flex;
+        flex-direction: column;
+        margin: 0 32px;
+    }
+
+    .contact-me__title-desktop {
+        font-family: Abhaya Libre, sans-serif;
+        font-size: 48px;
+        line-height: 57px;
+        margin-bottom: 32px;
+    }
+
+    .form-button {
+        font-size: 19px;
+        line-height: 23px;
+        padding: 19.5px 10px;
+    }
+
+    .contact-me-photo-inner {
+        position: relative;
+    }
+
+    .contact-me-border {
+        width: 522px;
+        height: 515px;
+        border-radius: 522px;
+        border: 1px solid var(--white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-me-border > img {
+        width: 478px;
+        height: 486px;
+        border-radius: 250px;
+        overflow: hidden;
+
+    }
+
+    .contact-me-background {
+        position: absolute;
+        border-radius: 125.5px;
+        width: 251px;
+        height: 251px;
+        background-color: var(--pink-2);
+        filter: blur(156px);
+        bottom: 298px;
+        left: -62px;
+    }
+}

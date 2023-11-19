@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="body">
+
 <header class="header">
     <div class="container">
         <div class="header-inner">
@@ -24,11 +25,12 @@
                 </svg>
             </a>
             <ul class="header-inner__list">
-                <li class="header-inner__list-item"><a href="">Про нас</a></li>
-                <li class="header-inner__list-item"><a href=""> Наші послуги</a></li>
-                <li class="header-inner__list-item"><a href=""> Етапи доставки</a></li>
-                <li class="header-inner__list-item"><a href="">Калькулятор</a></li>
-                <li class="header-inner__list-item"><a href=""> Точки збору</a></li>
+                <li class="header-inner__list-item"><a class="header__item-link" href="">Про мене</a></li>
+                <li class="header-inner__list-item"><a class="header__item-link" href="">Послуги</a></li>
+                <li class="header-inner__list-item"><a class="header__item-link" href="">Кейси</a></li>
+                <li class="header-inner__list-item"><a class="header__item-link" href="">Співпраця</a></li>
+                <li class="header-inner__list-item"><a class="header__item-link" href="">Відгуки</a></li>
+                <li class="header-inner__list-item"><a class="header__item-link" href="">Контакти</a></li>
             </ul>
             <div class="header-inner__btns-right">
                 <a class="header-navigation__list-item-link link " href=" ">
@@ -43,11 +45,12 @@
         </div>
     </div>
 </header>
+
 <div class="mobile-menu js-menu-container is-hidden " data-modal="">
     <div class="mobile-menu-container">
         <div class="mobile-menu-inner_btns-top">
             <button class="mobile-menu-inner_btn js-close-menu" data-modal-close="">
-                <svg width="32px" height="32px">-->
+                <svg width="32px" height="32px">
                     <use href="images/icons.svg#icon-menu-with-bevel"></use>
                 </svg>
             </button>
@@ -121,7 +124,37 @@
                     <img src="images/hero-maria.jpg" alt="">
                 </div>
                 <h2 class="hero-inner__title-down">Шевцова</h2>
-                    <a href="" class="hero__button">Безкоштовна консультація</a>
+                <a href="" class="hero__button">Безкоштовна консультація</a>
+                <ul class="hero-social-list">
+                    <li class="hero-social-item">
+                        <a class="hero-social__item-link" href="">
+                            <svg class="hero-social-icon" width="32px" height="32px">
+                                <use href="images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="hero-social-item">
+                        <a class="hero-social__item-link" href="">
+                            <svg class="hero-social-icon" width="32px" height="32px">
+                                <use href="images/icons.svg#icon-email"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="hero-social-item">
+                        <a class="hero-social__item-link" href="">
+                            <svg class="hero-social-icon" width="32px" height="32px">
+                                <use href="images/icons.svg#icon-phone"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="hero-social-item">
+                        <a class="hero-social__item-link" href="">
+                            <svg class="hero-social-icon" width="32px" height="32px">
+                                <use href="images/icons.svg#icon-telegram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
@@ -131,26 +164,31 @@
     <div class="container">
         <div class="about-me-inner">
             <h3 class="about-me-inner__title">Про мене</h3>
-            <div class="about-me-inner__text">
-                <p class="about-me-inner__text1">
-                    Привіт, моє ім'я Марія Шевцова. Я рада вас вітати на своєму сайті, мені приємно, що ви знайшли час
-                    та приділили свою увагу. Я впевнена, що тут ви знайдете відповіді на всі ваші питання. Також на
-                    сайті ви зможете залишити свою заявку на безкоштовну консультацію. Мета якої буде, підібрати
-                    послугу, яка більш якісніше зможе закрити ваш запит.
-                </p>
-                <p class="about-me-inner__text2">
-                    <br>
-                    Моя задача, як спеціаліста, це якісно виконати запит клієнта, а від вас потрібно лише розповісти
-                    свою проблему. Я впевнена, що зможу її вирішити. До речі, в своєму інстаграм я розповідаю все про
-                    життя СММ-спеціаліста та контент-мейкера 😉
-                </p>
-            </div>
-            <div class="about-me-inner__img">
-                <div class="about-me__img">
-                    <img src="images/maria2.jpg" alt="">
+            <div class="about-me-content">
+                <div class="about-me-inner__text">
+                    <p class="about-me-inner__text1">
+                        Привіт, моє ім'я Марія Шевцова. Я рада вас вітати на своєму сайті, мені приємно, що ви знайшли
+                        час
+                        та приділили свою увагу. Я впевнена, що тут ви знайдете відповіді на всі ваші питання. Також на
+                        сайті ви зможете залишити свою заявку на безкоштовну консультацію. Мета якої буде, підібрати
+                        послугу, яка більш якісніше зможе закрити ваш запит.
+                    </p>
+                    <p class="about-me-inner__text2">
+                        <br>
+                        Моя задача, як спеціаліста, це якісно виконати запит клієнта, а від вас потрібно лише розповісти
+                        свою проблему. Я впевнена, що зможу її вирішити. До речі, в своєму інстаграм я розповідаю все
+                        про
+                        життя СММ-спеціаліста та контент-мейкера 😉
+                    </p>
                 </div>
-                <div class="about-me__ellipse">
-                    <div class="about-me__ellipse__blur"></div>
+
+                <div class="about-me-inner__img">
+                    <div class="about-me__img">
+                        <img src="images/maria2.jpg" alt="">
+                    </div>
+                    <div class="about-me__ellipse">
+                        <div class="about-me__ellipse__blur"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -160,13 +198,18 @@
 <section class="services" id="services">
     <div class="container">
         <div class="services-inner">
+
+            <div class="services-background-logo">
+                <div class="logo-text">
+                    SMM
+                    <div class="logo-background"></div>
+                </div>
+            </div>
+
             <div class="services__title title">Послуги</div>
-
-
             <div class="swiper">
                 <div class="swiper-wrapper services-swiper services-tablet-slide-style" id="services-swiper-js">
                     <div class="swiper-slide swiper-slide-style ">
-
                         <div class="slide__title">Контент план</div>
                         <ul class="slide-list">
                             <li class="slide-text-list">
@@ -216,9 +259,8 @@
                             <li class="slide-text-list"> • поради щодо позування.</li>
                         </ul>
                         <br>
-                            <a href="" class="slide-button ">Дізнатися ціну</a>
+                        <a href="" class="slide-button ">Дізнатися ціну</a>
                     </div>
-
 
                     <div class="swiper-slide swiper-slide-style">
                         <div class="slide__title">Ведення сторінки</div>
@@ -240,7 +282,6 @@
                         </ul>
                     </div>
 
-
                     <div class="swiper-slide swiper-slide-style">
                         <div class="slide__title slide-style">Упакування профілю</div>
                         <p class="slide-text">Оформлення твого інстаграму - це перше на що звертає увагу клієнт!
@@ -259,7 +300,6 @@
                             </li>
                         </ul>
                     </div>
-
 
                     <div class="swiper-slide swiper-slide-style">
                         <div class="slide__title">Ведення історій</div>
@@ -285,7 +325,6 @@
                         </p>
                     </div>
 
-
                     <div class="swiper-slide swiper-slide-style">
                         <div class="slide__title slide-style">Консультація</div>
 
@@ -305,7 +344,6 @@
                             </li>
                         </ul>
                     </div>
-
 
                     <div class="swiper-slide swiper-slide-style">
                         <div class="slide__title ">Що треба від клієнта?</div>
@@ -344,44 +382,45 @@
     </div>
 </section>
 
-
 <section class="terms-of-cooperation" id="terms-of-cooperation">
     <div class="container">
         <div class="terms-of-cooperation__inner">
-            <div class="terms-of-cooperation__title title">Умови співпраці</div>
-            <img class="terms-of-cooperation__photo" src="images/terms-of-cooperation-maria.jpg" alt="">
-<!--            <img src="images/terms-of-cooperation-logo1-tablet-desktop.png" alt=""-->
-<!--                 class="terms-of-cooperation-logo1-tablet-desktop">-->
-<!--            <img src="images/terms-of-cooperation-logo2-tablet-desktop.png" alt=""-->
-<!--                 class="terms-of-cooperation-logo2-tablet-desktop">-->
-
             <div class="terms-of-cooperation-logo1-tablet-desktop">content</div>
             <div class="terms-of-cooperation-logo2-tablet-desktop">maker</div>
-            <p class="terms-of-cooperation__text">Це потрібно для, того аби убезпечити себе та вас від непорозумінь
-                та неприємних ситуацій. </p>
-            <br>
-            <ul class="terms-of-cooperation__list">
-                <li class="terms-of-cooperation__item">
-                    • Проводжу зйомки за передплатою 50%
-                </li>
-                <li class="terms-of-cooperation__item">
-                    • Якщо ви переносите/відміняєте зйомку за день або декілька днів - передплата повертається, у
-                    інших випадках - ні.
-                </li>
-                <li class="terms-of-cooperation__item">
-                    • Також я роблю 2-3 правки, якщо більше, то це буде +50% від вартості послуги.
-                </li>
-                <li class="terms-of-cooperation__item">
-                    • Всі послуги виконую лише за передоплатою 30%
-                </li>
-                <li class="terms-of-cooperation__item">
-                    • Робочі дні 5/7, тобто сб та нд - вихідні
-                </li>
-            </ul>
-            <br>
-            <p class="terms-of-cooperation__text">Я думаю, що непорозумінь в нас виникати не буде, тому скоріш
-                записуйся на безкоштовну консультацію! ❤️</p>
-            <a href=""class="terms-of-cooperation__button" >Замовити послуги</a>
+            <div class="terms-of-cooperation__title ">Умови співпраці</div>
+            <div class="terms-of-cooperation-content">
+                <img class="terms-of-cooperation__photo" src="images/terms-of-cooperation-maria.jpg" alt="">
+                <div class="terms-of-cooperation-content-text">
+                    <div class="terms-of-cooperation__title-desktop">Умови співпраці</div>
+                    <p class="terms-of-cooperation__text">Це потрібно для, того аби убезпечити себе та вас від
+                        непорозумінь
+                        та неприємних ситуацій. </p>
+                    <br>
+                    <ul class="terms-of-cooperation__list">
+                        <li class="terms-of-cooperation__item">
+                            • Проводжу зйомки за передплатою 50%
+                        </li>
+                        <li class="terms-of-cooperation__item">
+                            • Якщо ви переносите/відміняєте зйомку за день або декілька днів - передплата повертається,
+                            у
+                            інших випадках - ні.
+                        </li>
+                        <li class="terms-of-cooperation__item">
+                            • Також я роблю 2-3 правки, якщо більше, то це буде +50% від вартості послуги.
+                        </li>
+                        <li class="terms-of-cooperation__item">
+                            • Всі послуги виконую лише за передоплатою 30%
+                        </li>
+                        <li class="terms-of-cooperation__item">
+                            • Робочі дні 5/7, тобто сб та нд - вихідні
+                        </li>
+                    </ul>
+                    <br>
+                    <p class="terms-of-cooperation__text">Я думаю, що непорозумінь в нас виникати не буде, тому скоріш
+                        записуйся на безкоштовну консультацію! ❤️</p>
+                    <a href="" class="terms-of-cooperation__button">Замовити послуги</a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -485,7 +524,6 @@
     </div>
 </section>
 
-
 <section class="reviews" id="reviews">
     <div class="container">
         <div class="reviews__inner">
@@ -533,13 +571,14 @@
         </div>
     </div>
 </section>
+
 <section class="contact-me">
     <div class="container">
         <div class="contact-me__inner">
-            <div class="contact-me__title title">Зв’яжіться зі мною</div>
+            <div class="contact-me__title">Зв’яжіться зі мною</div>
 
             <div class="contact-me__form-inner">
-
+                <div class="contact-me__title-desktop">Зв’яжіться зі мною</div>
                 <form class="contact-me__form" action="">
 
                     <input class="contact-me__item-style" id="name" type="text" placeholder="Ім’я"/>
@@ -548,16 +587,28 @@
 
                     <input class="contact-me__item-style" id="tel" type="tel" placeholder="Телефон"/>
 
-                        <textarea class="contact-me__item-style" id="message" name="message" rows="8"
-                                  placeholder="Повідомлення"></textarea>
+                    <textarea class="contact-me__item-style" id="message" name="message" rows="8"
+                              placeholder="Повідомлення"></textarea>
 
                     <button class="form-button" type="submit" name="send">Відправити</button>
                 </form>
             </div>
+            
+            
+        <div class="contact-me-photo-inner">
+            <div class="contact-me-border">
+            <img src="images/contact-me-photo.jpg" alt="">
+            </div>
+            <div class="contact-me-background">
+
+            </div>
+        </div>
+
+            
+            
         </div>
     </div>
 </section>
-
 
 <footer class="footer">
     <div class="container">
@@ -636,7 +687,7 @@
                         </a>
                     </li>
                 </ul>
-                    <a href="" class="footer-inner__button" >Безкоштовна консультація</a>
+                <a href="" class="footer-inner__button">Безкоштовна консультація</a>
             </div>
         </div>
     </div>
@@ -655,8 +706,6 @@
 <script type="module" src="js/mobile-menu.js"></script>
 <script type="module" src="js/services-swiper.js"></script>
 <script type="module" src="js/reviews-swiper.js"></script>
-
-
 
 
 </body>

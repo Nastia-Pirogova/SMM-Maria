@@ -1,10 +1,10 @@
 @media screen and (min-width: 768px) {
-    .footer-inner{
+    .footer-inner {
         padding: 64px 0 40px;
         position: relative;
     }
 
-    .footer-inner__mobile-list1,.footer-inner__mobile-list2 {
+    .footer-inner__mobile-list1, .footer-inner__mobile-list2 {
         font-size: 20px;
         line-height: 24px;
         letter-spacing: 1.2px;
@@ -29,6 +29,13 @@
     .footer-inner__top-button {
         position: absolute;
         right: 0;
+        width: 86px;
+        height: 86px;
+    }
+
+    .footer-inner__top-button > svg {
+        width: 26px;
+        height: 64px;
     }
 
     .contacts-list {
@@ -49,7 +56,7 @@
         margin: 0;
     }
 
-    .footer-social-item{
+    .footer-social-item {
         transform: scale(1.037);
     }
 
@@ -61,7 +68,7 @@
         width: 331px;
     }
 
-    .copyright{
+    .copyright {
         font-size: 18px;
         line-height: 22px;
         letter-spacing: 1.08px;

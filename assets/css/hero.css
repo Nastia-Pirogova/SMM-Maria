@@ -1,3 +1,7 @@
+.hero-social-list{
+    display: none;
+}
+
 .hero-inner {
     margin: 32px 0 116px 0;
     position: relative;

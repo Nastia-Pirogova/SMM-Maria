@@ -1,0 +1,42 @@
+@media screen and (min-width: 1440px) {
+
+    .cases__inner{
+        margin-bottom: 100px;
+    }
+
+    .cases__title{
+        font-size: 48px;
+        line-height: 57px;
+        margin-bottom: 32px;
+    }
+
+    .cases__inner {
+        gap: 100px;
+    }
+
+    .cases__photo {
+        width: 524px;
+        height: 471px;
+    }
+
+    .cases__inner-text {
+        gap: 20px;
+    }
+
+    .cases__text {
+        font-size: 48px;
+        line-height: 57px;
+    }
+
+    .cases__inner-text span{
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .cases__button-icon {
+        width: 206px;
+        height: 64px;
+    }
+
+
+}

@@ -1,4 +1,8 @@
 @media screen and (min-width: 768px) {
+    .services-background-logo{
+        display: none;
+    }
+
     .services-inner {
         margin: 80px 0;
     }
@@ -27,7 +31,7 @@
         line-height: 35px;
     }
 
-    ul.slide-list,.slide-text-list,.slide-text{
+    .slide-text-list,.slide-text{
         font-size: 18px;
         line-height: 22px;
     }

@@ -29,6 +29,28 @@
         height: 278px;
     }
 
+    .swiper-slide__inner-text {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .button__reviews {
+        margin-top: 48px;
+        display: flex;
+        gap: 78px;
+
+    }
+
+    .left-button-reviews > svg{
+        width: 103px;
+        height: 51.5px;
+    }
+
+    .right-button-reviews > svg{
+        width: 103px;
+        height: 51.5px;
+    }
+
 }
 
 
